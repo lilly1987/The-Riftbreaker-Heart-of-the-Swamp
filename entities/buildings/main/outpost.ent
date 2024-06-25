@@ -93,7 +93,7 @@ EntityBlueprint
 			GameplayResource
 			{
 				resource 			"biomass_plant"
-				value			 	"1000"
+				value			 	"100"
 			}
 			
 			GameplayResource

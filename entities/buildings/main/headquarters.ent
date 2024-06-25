@@ -99,29 +99,30 @@ EntityBlueprint
 			GameplayResource
 			{
 				resource 			"biomass_plant"
-				value			 	"1000"
+				value			 	"100"
 			}
 			
 			GameplayResource
 			{
 				resource 			"rhodonite"
-				value			 	"10"
+				value			 	"100"
 			}
 			GameplayResource
 			{
 				resource 			"tanzanite"
-				value			 	"10"
+				value			 	"100"
 			}
 			GameplayResource
 			{
 				resource 			"hazenite"
-				value			 	"10"
+				value			 	"100"
 			}
 			GameplayResource
 			{
 				resource 			"ferdonite"
-				value			 	"10"
+				value			 	"100"
 			}
+			
 		}
 
 		disableable 0
@@ -148,27 +149,27 @@ EntityBlueprint
 			Storage
 			{
 				resource	 "ammo_tower_explosive"
-				max 	 	"1"
+				max 	 	"1000"
 			}
 			Storage
 			{
 				resource	 "ammo_tower_liquid"
-				max 	 	"1"
+				max 	 	"1000"
 			}
 			Storage
 			{
 				resource	 "ammo_tower_low_caliber"
-				max 	 	"1"
+				max 	 	"1000"
 			}
 			Storage
 			{
 				resource	 "ammo_tower_high_caliber"
-				max 	 	"1"
+				max 	 	"1000"
 			}
 			Storage
 			{
 				resource	"ai"
-				max			"4"
+				max			"4000"
 			}
 		}
 	}

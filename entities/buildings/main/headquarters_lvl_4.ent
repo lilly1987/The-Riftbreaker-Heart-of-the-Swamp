@@ -94,28 +94,28 @@ EntityBlueprint
 			GameplayResource
 			{
 				resource 			"biomass_plant"
-				value			 	"1000"
+				value			 	"100"
 			}
 			
 			GameplayResource
 			{
 				resource 			"rhodonite"
-				value			 	"10"
+				value			 	"100"
 			}
 			GameplayResource
 			{
 				resource 			"tanzanite"
-				value			 	"10"
+				value			 	"100"
 			}
 			GameplayResource
 			{
 				resource 			"hazenite"
-				value			 	"10"
+				value			 	"100"
 			}
 			GameplayResource
 			{
 				resource 			"ferdonite"
-				value			 	"10"
+				value			 	"100"
 			}
 		}
 		
