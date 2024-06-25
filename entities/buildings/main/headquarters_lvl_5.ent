@@ -143,8 +143,8 @@ EntityBlueprint
 
 	HealthDesc
 	{
-		max_health 					"9000"
-		health 						"9000"
+		max_health 					"9000000"
+		health 						"9000000"
 		regeneration 				"10000"
 		regeneration_cooldown 		"0"
 		is_manual 					1

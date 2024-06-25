@@ -167,6 +167,7 @@ function building_base:_OnBuild(evt)
 	self.upgrading = evt:GetUpgrading()
 	if ( HealthService:GetHealth( self.entity ) ~= -1 and self.upgrading == false ) then
 		self.hasHealth = true
+		HealthService:SetMaxHealth( self.entity, HealthService:GetMaxHealth( self.entity) * 100 )
 		HealthService:SetHealth( self.entity, 1 )
 	end
 	self.data:SetInt( "owner", evt:GetPlayerId() )

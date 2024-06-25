@@ -195,8 +195,8 @@ EntityBlueprint
 
 	HealthDesc
 	{
-		max_health 					"5000"
-		health 						"5000"
+		max_health 					"5000000"
+		health 						"5000000"
 		regeneration 				"10000"
 		regeneration_cooldown 		"0"
 		 is_manual 1
@@ -391,7 +391,7 @@ EntityBlueprint
 
 	FogOfWarRevealerComponentDesc
 	{
-		radius "3000"
+		radius "30"
 	}
 
 	HealthBarDesc
