@@ -70,12 +70,6 @@ EntityBlueprint
 			{
 				resource	 "ammo_mech_energy_cell"
 				max 	 "4000"
-			}
-
-			Storage
-			{
-				resource	"ai"
-				max			"4000"
 			}			
 		}
 	}
