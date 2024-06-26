@@ -347,7 +347,7 @@ EntityBlueprint
 
 	RegenerationComponent
 	{
-		regeneration 				"20"
+		regeneration 				"200"
 		regeneration_cooldown 		"0"
 	}
 

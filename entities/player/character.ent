@@ -238,14 +238,14 @@ EntityBlueprint
 	{
 		base_stats
 		{
-			health 						"200"
-			health_regen				"0"
+			health 						"2000"
+			health_regen				"100"
 			//health_regen_cooldown 		"5"
 			movement_speed				"15"
 
-			forcefield					"0"
-			forcefield_regen 			"20"
-			forcefield_regen_cooldown 	"10"
+			forcefield					"1000"
+			forcefield_regen 			"200"
+			forcefield_regen_cooldown 	"0"
 
 			radar_range					"40"
 		}
@@ -1370,7 +1370,7 @@ EntityBlueprint
 			
 			HealthDesc
 			{
-				health "0"
+				health "1000"
 			}
 
 			EffectDesc

@@ -49,27 +49,27 @@ EntityBlueprint
 			Storage
 			{
 				resource	 "ammo_mech_low_caliber"
-				max 	 "400"
+				max 	 "4000"
 			}
 			Storage
 			{
 				resource	 "ammo_mech_high_caliber"
-				max 	 "400"
+				max 	 "4000"
 			}			
 			Storage
 			{
 				resource	 "ammo_mech_liquid"
-				max 	 "400"
+				max 	 "4000"
 			}
 			Storage
 			{
 				resource	 "ammo_mech_explosive"
-				max 	 "400"
+				max 	 "4000"
 			}
 			Storage
 			{
 				resource	 "ammo_mech_energy_cell"
-				max 	 "400"
+				max 	 "4000"
 			}			
 		}
 	}
