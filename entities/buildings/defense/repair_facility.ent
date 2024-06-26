@@ -1,33 +1,32 @@
 EntityBlueprint
 {
-	name  "buildings/defense/shield_generator"
+	name  "buildings/defense/repair_facility"
 
 	BuildingDesc
 	{
-		name 				"shield_generator"
-		bp   				"buildings/defense/shield_generator"
+		name 				"repair_facility"
+		bp   				"buildings/defense/repair_facility"
 		category 			"defense"
-		localization_id		"gui/hud/building_name/shield_generator"
-		description			"gui/hud/building_description/shield_generator"
-		menu_icon			"gui/hud/building_icons/shield_generator"
+		localization_id		"gui/hud/building_name/repair_facility"
+		description			"gui/hud/building_description/repair_facility"
+		menu_icon			"gui/hud/building_icons/repair_facility"
 		require 			"headquarters"
-		order				"46"
-		type				"pipe"		
-		upgrade				"buildings/defense/shield_generator_lvl_2"
+		order				"4"
+		upgrade				"buildings/defense/repair_facility_lvl_2"
 		exclude_terrain_types "magma_hot_ground,magma_very_hot_ground"
-		overrides			"pipe_ground,pipe_connector_t,pipe_connector_x,pipe_corner,pipeline,pipe_straight_windowless"
 		
 		costs
 		{
 			BuildingCostInfo
 			{
 				name "default"
-				building_time 10
+				building_time 20
 				building_cost
 				{
-					carbonium 	"500"
-					steel 		"250"					
-					palladium	"100"
+					carbonium 	"100"
+					steel 		"75"			
+					ai			"1"			
+					cobalt 		"25"
 				}
 			}		
 		}		
@@ -40,42 +39,32 @@ EntityBlueprint
 			GameplayResource
 			{
 				resource 			"energy"
-				value			 	"20"
+				value			 	"1"
 			}
-			//GameplayResource
-			//{
-			//	resource 	"plasma"
-			//	value 		"10"
-			//	attachment	"att_in_1"
-			//	family		"plasma"				
-			//}	
-			//GameplayResource
-			//{
-			//	resource 	"resin"
-			//	value 		"10"
-			//	attachment	"att_in_1"
-			//	family		"plasma"
-			//}				
 			
 		}
-		priority 6
+		priority 5
 	}
 
 	LuaDesc
 	{
-		script "lua/buildings/defense/shield_generator.lua"
+		script "lua/buildings/defense/repair_facility_drone.lua"
 		
 		database
 		{
 			cone_effect				string:"build_cone_3x3"
 			cone_effect_sell		string:"sell_big"
-			radius					float:"200"
-			range					float:"200"
-			shield_bp				string:"buildings/defense/shield_generator/shield"
-			display_radius_group	string:"shield_generator"
-			display_radius_blueprint string:"effects/decals/range_circle_shield"
+			energy_cost				float:"10"
+
+			drone_search_radius		float:"250"
+			drone_blueprint			string:"units/drones/drone_repair_facility_lvl_1"
+			drone_attachments		string:"att_landing"
+			drone_per_spot			int:"1"
+			drone_visible_on_spot 	int:"0"
+
+			display_radius_blueprint string:"effects/decals/range_circle_repair"
+			display_radius_group	 string:"repair_tower"
 		}
-				
 	}
 
 	HealthDesc
@@ -108,8 +97,17 @@ EntityBlueprint
 
 	MeshDesc
 	{
-		mesh "meshes/buildings/defense/shield_generator.mesh"
-		material "buildings/defense/shield_generator"		
+		mesh "meshes/buildings/defense/repair_facility.mesh"
+		material "buildings/defense/repair_facility"
+	
+		SubMeshes
+		{
+			SubMesh
+			{
+				id "1"
+				material "buildings/defense/repair_facility_energy"
+			}
+		}		
 	}
 
 	TypeDesc
@@ -119,7 +117,7 @@ EntityBlueprint
 
 	SkeletonDesc
 	{
-		name "meshes/buildings/defense/shield_generator"
+		name "meshes/buildings/defense/repair_facility"
 	}
 
 	AnimationGraphDesc
@@ -146,7 +144,7 @@ EntityBlueprint
 						position 
 						{
 							x "0.0"
-							y "2"
+							y "1.45"
 							z "0.0"
 						}
 
@@ -271,7 +269,7 @@ EntityBlueprint
 				}
 
 				key "default"
-			}	
+			}		
 			Pair
 			{
 				value
@@ -298,78 +296,51 @@ EntityBlueprint
 		{
 			"buildings/effects_small_base"
 		}	
-
-		//EffectGroup
-		//{
-		//	group "working"
-		//	enabled "0"
-		//	Effects
-		//	{
-		//		Effect
-		//		{
-		//			blueprint "effects/buildings_and_machines/electric_machinery_big"
-		//		}
-		//	}
-		//}	
-		//EffectGroup
-		//{
-		//	group "att_in_1"
-		//	enabled "0"				
-		//	delay "0"
-		//	
-		//	Effects
-		//	{
-		//		Effect
-		//		{
-		//			blueprint "effects/buildings_and_machines/building_arrow"								
-		//			bone "att_in_arrow"
-		//		}
-		//	}
-		//}		
-	}
-	
-}
-
-EntityBlueprint
-{
-	name  "buildings/defense/shield_generator/shield"
-
-	IdDesc
-	{
-		name "_shield_"
-	}
-
-	HealthDesc
-	{
-		max_health 					"1000"
-		health 						"0"
-	}
-
-	RegenerationComponent
-	{
-		regeneration 				"20"
-		regeneration_cooldown 		"0"
-	}
-
-	EffectDesc
-	{
 		EffectGroup
 		{
-			group "shield_down"
+			group "working"
 			enabled "0"
-
 			Effects
 			{
 				Effect
 				{
-					blueprint "effects/mech/jump_portal_exit"
+					blueprint "effects/buildings_and_machines/repair_facility_idle"
+					bone "att_healing_energy"
 				}
 			}
-		}
-	}
+		}	
+		
+		EffectGroup
+		{
+			group "drones"
+			enabled "0"
+			Effects
+			{
+				Effect
+				{
+					blueprint "buildings/defense/repair_facility_drone_flying"
 
-	ShieldComponent
+				}
+			}
+		}		
+	}
+}
+
+EntityBlueprint
+{
+	name  "buildings/defense/repair_facility_drone_flying"
+
+	ResourceConverterDesc
 	{
-		owner	"custom"
+		in
+		{
+			GameplayResource
+			{
+				resource 			"energy"
+				value			 	"20"
+			}
+			
+		}
+		priority 5
 	}
 }

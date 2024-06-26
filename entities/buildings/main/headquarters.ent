@@ -148,28 +148,29 @@ EntityBlueprint
 			{
 				group	 		"global"
 				subgroup		"base"
-				max 	 		"50000"
+				max 	 		"50"
 			}
+
 
 			Storage
 			{
 				resource	 "ammo_tower_explosive"
-				max 	 	"1000"
+				max 	 	"100"
 			}
 			Storage
 			{
 				resource	 "ammo_tower_liquid"
-				max 	 	"1000"
+				max 	 	"100"
 			}
 			Storage
 			{
 				resource	 "ammo_tower_low_caliber"
-				max 	 	"1000"
+				max 	 	"100"
 			}
 			Storage
 			{
 				resource	 "ammo_tower_high_caliber"
-				max 	 	"1000"
+				max 	 	"100"
 			}
 			Storage
 			{

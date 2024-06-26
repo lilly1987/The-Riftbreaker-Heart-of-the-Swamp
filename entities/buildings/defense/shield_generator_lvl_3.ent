@@ -186,21 +186,21 @@ EntityBlueprint
 				}
 			}
 		}	
-		EffectGroup
-		{
-			group "att_in_1"
-			enabled "0"				
-			delay "0"
-			
-			Effects
-			{
-				Effect
-				{
-					blueprint "effects/buildings_and_machines/building_arrow"								
-					bone "att_in_arrow"
-				}
-			}
-		}		
+		//EffectGroup
+		//{
+		//	group "att_in_1"
+		//	enabled "0"				
+		//	delay "0"
+		//	
+		//	Effects
+		//	{
+		//		Effect
+		//		{
+		//			blueprint "effects/buildings_and_machines/building_arrow"								
+		//			bone "att_in_arrow"
+		//		}
+		//	}
+		//}		
 	}	
 
 }
