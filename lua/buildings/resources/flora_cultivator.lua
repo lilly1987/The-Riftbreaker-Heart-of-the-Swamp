@@ -167,7 +167,7 @@ function flora_cultivator:OnLuaGlobalEvent( evt )
 end
 
 function flora_cultivator:DisableVegetationAround()
-	local drone_search_radius = self.data:GetFloatOrDefault( "drone_search_radius", 25.0 )*10
+	local drone_search_radius = self.data:GetFloatOrDefault( "drone_search_radius", 25.0 )
 
 	self.predicate = self.predicate or {
 		signature = "VegetationLifecycleEnablerComponent"

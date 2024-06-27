@@ -8,6 +8,8 @@ function headquarters:__init()
 end
 
 function headquarters:OnInit()
+	self.data:SetFloat("range",self.data:GetFloat("range"))
+	
 	self.portalEnergy = nil
 
 	self.selected = {}
@@ -66,7 +68,7 @@ function headquarters:OnBuildingEnd()
 	self.portalEnergy = EntityService:SpawnAndAttachEntity( "buildings/main/headquarters/portal", self.entity, "att_portal", "" )
 	self:RegisterHandler( self.entity, "EnteredTriggerEvent",  "OnEnteredTriggerEvent" )
 	PlayerService:SetEnergyLvl( 0, BuildingService:GetBuildingLevel( self.entity ) )
-	local range = self.data:GetFloat("range")*10
+	local range = self.data:GetFloat("range")
 	BuildingService:CreateRadarComponent( self.entity, range );	
 
 	self:SetSpawnPoint()

@@ -16,7 +16,7 @@ EntityBlueprint
 	RegenerationComponent
 	{
 		regeneration 				"200"
-		regeneration_cooldown 		"0"
+		regeneration_cooldown 		"1"
 	}
 
 	EffectDesc

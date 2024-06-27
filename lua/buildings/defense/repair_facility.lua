@@ -18,7 +18,8 @@ function repair_facility:OnInit()
 	self.energyCost = 200
 	
 	if ( self.data:HasFloat("heal_radius") ) then
-		self.radius = self.data:GetFloat("heal_radius")*100
+		self.data:SetFloat("heal_radius",self.data:GetFloat("heal_radius")*100)
+		self.radius = self.data:GetFloat("heal_radius")
 	end
 	
 	if ( self.data:HasInt("heal_count") ) then

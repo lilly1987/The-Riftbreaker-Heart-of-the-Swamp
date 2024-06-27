@@ -9,6 +9,7 @@ function radar_pulse:__init()
 end
 
 function radar_pulse:OnInit()
+	self.data:SetFloat( "radius", self.data:GetFloatOrDefault( "radius", 100 ) * 100 ) 
 end
 
 function radar_pulse:OnEquipped()
@@ -24,7 +25,7 @@ function radar_pulse:OnActivate()
 	
 	local helper = reflection_helper( radarRevealer ) 
 	
-	helper.radius = self.data:GetFloatOrDefault( "radius", 100 ) * 100
+	helper.radius = self.data:GetFloatOrDefault( "radius", 100 )
 	local lifeTime = self.data:GetFloatOrDefault("life_time", 10 )
 	EntityService:CreateOrSetLifetime( radarPulseEffect, lifeTime, "normal" )
 end
