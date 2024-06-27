@@ -53,17 +53,17 @@ EntityBlueprint
 	{
 		acceleration 			
 		{
-			base 	"200"
+			base 	"80"
 		}		
 		
 		deacceleration 			
 		{
-			base 	"200"
+			base 	"80"
 		}
 		
 		max_speed 				
 		{
-			base 	"600"
+			base 	"240"
 		}
 	}
 

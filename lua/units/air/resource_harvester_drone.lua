@@ -161,10 +161,8 @@ end
 
 function harvester_drone:FillInitialParams()
     if self.data:HasFloat("drone_search_radius") then
-		self.data:SetFloat("drone_search_radius",self.data:GetFloat("drone_search_radius")*10)
         self.search_radius = self.data:GetFloat("drone_search_radius")
     else
-		self.data:SetFloat("search_radius",self.data:GetFloat("search_radius")*10)
         self.search_radius = self.data:GetFloat("search_radius")
     end
 

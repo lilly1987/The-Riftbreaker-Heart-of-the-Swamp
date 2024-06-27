@@ -8,7 +8,7 @@ function mine_layer_drone:__init()
 end
 
 function mine_layer_drone:FillInitialParams()
-	self.data:SetFloat("plant_radius",self.data:GetFloat("plant_radius")*10)
+	self.data:SetFloat("plant_radius",self.data:GetFloat("plant_radius")*4)
     self.plant_radius = self.data:GetFloat("plant_radius");
     self.plant_marker = self.data:GetString("plant_marker");
     self.plant_effect = self.data:GetString("plant_effect");

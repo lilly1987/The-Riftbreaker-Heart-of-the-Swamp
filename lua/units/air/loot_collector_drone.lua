@@ -38,13 +38,11 @@ end
 
 function loot_collector_drone:FillInitialParams()
     if self.data:HasFloat("drone_search_radius") then
-		self.data:SetFloat("drone_search_radius",self.data:GetFloat("drone_search_radius")*10)
         self.search_radius = self.data:GetFloat("drone_search_radius")
     else
-		self.data:SetFloat("search_radius",self.data:GetFloat("search_radius")*10)
         self.search_radius = self.data:GetFloat("search_radius")
     end
-	self.data:SetFloat("pickup_radius",self.data:GetFloat("pickup_radius")*10)
+
     self.pickup_radius = self.data:GetFloat("pickup_radius")
 end
 

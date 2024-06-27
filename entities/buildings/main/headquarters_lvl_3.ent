@@ -50,78 +50,67 @@ EntityBlueprint
 			GameplayResource
 			{
 				resource 			"energy"
-				value			 	"80"
+				value			 	"800"
 
 			}	
 			GameplayResource
 			{
-				resource 			"energy"
-				value			 	"20000"
-
-			}			
-			GameplayResource
-			{
 				resource 			"carbonium"
-				value			 	"1000"
+				value			 	"100"
 			}			
 			GameplayResource
 			{
 				resource 			"steel"
-				value			 	"1000"
+				value			 	"100"
 			}			
 			
 			GameplayResource
 			{
 				resource 			"cobalt"
-				value			 	"1000"
+				value			 	"100"
 			}			
 			GameplayResource
 			{
 				resource 			"uranium"
-				value			 	"1000"
+				value			 	"100"
 			}			
 			GameplayResource
 			{
 				resource 			"palladium"
-				value			 	"1000"
+				value			 	"100"
 			}			
 			GameplayResource
 			{
 				resource 			"titanium"
-				value			 	"1000"
+				value			 	"100"
 			}
 			
 			GameplayResource
 			{
 				resource 			"biomass_plant"
-				value			 	"100"
+				value			 	"10"
 			}
 			
 			GameplayResource
 			{
 				resource 			"rhodonite"
-				value			 	"100"
+				value			 	"10"
 			}
 			GameplayResource
 			{
 				resource 			"tanzanite"
-				value			 	"100"
+				value			 	"10"
 			}
 			GameplayResource
 			{
 				resource 			"hazenite"
-				value			 	"100"
+				value			 	"10"
 			}
 			GameplayResource
 			{
 				resource 			"ferdonite"
-				value			 	"100"
-			}
-			GameplayResource
-			{
-				resource 			"ammo_manufacturing"
-				value				"25"
-			}	
+				value			 	"10"
+			}		
 		}
 		
 		disableable 0
@@ -148,9 +137,9 @@ EntityBlueprint
 
 	HealthDesc
 	{
-		max_health 					"7000000"
-		health 						"7000000"
-		regeneration 				"10000"
+		max_health 					"7000"
+		health 						"7000"
+		regeneration 				"0"
 		regeneration_cooldown 		"0"
 		 is_manual 1
 		update_health_uniform 		"1"

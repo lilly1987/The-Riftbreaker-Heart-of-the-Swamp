@@ -166,7 +166,7 @@ function building_base:_OnBuild(evt)
 	self.buildingFinished = 2;
 	self.upgrading = evt:GetUpgrading()
 	if ( HealthService:GetHealth( self.entity ) ~= -1 and self.upgrading == false ) then
-		self.hasHealth = true		
+		self.hasHealth = true
 		HealthService:SetHealth( self.entity, 1 )
 	end
 	self.data:SetInt( "owner", evt:GetPlayerId() )
@@ -395,7 +395,7 @@ function building_base:_OnBuildingEnter( state )
 		self.printingData3 = { EntityService:GetPositionX( self.printingLine2 ), EntityService:GetPositionY( self.printingLine2 ), EntityService:GetPositionZ( self.printingLine2 ) }
 	end
 	if ( self.upgrading and self.hasHealth  ) then 
-		HealthService:SetHealth( self.entity, HealthService:GetMaxHealth( self.entity))
+		HealthService:SetHealth( self.entity, HealthService:GetMaxHealth( self.entity) )
 	end
 	
 end

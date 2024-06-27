@@ -20,7 +20,6 @@ local function RandPosition( position )
 end
 
 function planter_drone:FillInitialParams()
-	self.data:SetFloat( "drone_search_radius", self.data:GetFloatOrDefault( "drone_search_radius", self.data:GetFloat("plant_radius") )*10 )
     self.plant_radius = self.data:GetFloatOrDefault( "drone_search_radius", self.data:GetFloat("plant_radius") );
     self.plant_time = self.data:GetFloat("plant_time");
     self.plant_marker = self.data:GetString("plant_marker");

@@ -8,7 +8,7 @@ function headquarters:__init()
 end
 
 function headquarters:OnInit()
-	self.data:SetFloat("range",self.data:GetFloat("range"))
+	self.data:SetFloat("range",self.data:GetFloat("range")*4)
 	
 	self.portalEnergy = nil
 
