@@ -395,7 +395,6 @@ function building_base:_OnBuildingEnter( state )
 		self.printingData3 = { EntityService:GetPositionX( self.printingLine2 ), EntityService:GetPositionY( self.printingLine2 ), EntityService:GetPositionZ( self.printingLine2 ) }
 	end
 	if ( self.upgrading and self.hasHealth  ) then 
-		HealthService:SetMaxHealth( self.entity, HealthService:GetMaxHealth( self.entity) * 100 )
 		HealthService:SetHealth( self.entity, HealthService:GetMaxHealth( self.entity))
 	end
 	

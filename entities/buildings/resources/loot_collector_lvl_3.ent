@@ -55,10 +55,10 @@ EntityBlueprint
 			cone_effect			string:"build_cone_3x3"
 			cone_effect_sell 	string:"sell_big"
 			search_type			string:""
-			drone_search_radius	float:"550"
+			drone_search_radius	float:"55"
 			drone_blueprint		string:"units/drones/drone_loot_collector"
 			drone_attachments	string:"att_landing"
-			drone_per_spot		int:"3"
+			drone_per_spot		int:"1"
 
 			display_radius_blueprint string:"effects/decals/range_circle_harvesting"
 		}

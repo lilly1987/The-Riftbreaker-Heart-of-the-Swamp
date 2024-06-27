@@ -52,7 +52,7 @@ function GetBuildingDisplayRadius( entity )
 	if database ~= nil then
 		for key in Iter({ "heal_radius", "range", "radius", "drone_search_radius" }) do
 			if database:HasFloat( key ) then
-				return 0, database:GetFloat( key )*10
+				return 0, database:GetFloat( key )
 			end
 		end
 	end
