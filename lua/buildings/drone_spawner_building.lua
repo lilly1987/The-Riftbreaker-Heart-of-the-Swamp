@@ -15,7 +15,7 @@ end
 
 function drone_spawner_building:FillInitialParams()
 	local database = EntityService:GetBlueprintDatabase( self.entity ) or self.data;
-	database:SetFloat("drone_search_radius", database:GetFloatOrDefault("drone_search_radius", database:GetFloatOrDefault("radius", 25.0))*4);
+	database:SetFloat("drone_search_radius", database:GetFloatOrDefault("drone_search_radius", database:GetFloatOrDefault("radius", 25.0))*2);
 	self.drone_search_radius = database:GetFloatOrDefault("drone_search_radius", database:GetFloatOrDefault("radius", 25.0));
 	self.drone_attachments = database:GetStringOrDefault( "drone_attachments", "att_landing" )
 	self.drone_per_attachment = database:GetIntOrDefault( "drone_per_spot", 2 )

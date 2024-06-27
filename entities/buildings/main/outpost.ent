@@ -55,71 +55,8 @@ EntityBlueprint
 			GameplayResource
 			{
 				resource 			"energy"
-				value			 	"20000"
+				value			 	"20"
 
-			}			
-			GameplayResource
-			{
-				resource 			"carbonium"
-				value			 	"1000"
-			}			
-			GameplayResource
-			{
-				resource 			"steel"
-				value			 	"1000"
-			}			
-			
-			GameplayResource
-			{
-				resource 			"cobalt"
-				value			 	"1000"
-			}			
-			GameplayResource
-			{
-				resource 			"uranium"
-				value			 	"1000"
-			}			
-			GameplayResource
-			{
-				resource 			"palladium"
-				value			 	"1000"
-			}			
-			GameplayResource
-			{
-				resource 			"titanium"
-				value			 	"1000"
-			}
-			
-			GameplayResource
-			{
-				resource 			"biomass_plant"
-				value			 	"100"
-			}
-			
-			GameplayResource
-			{
-				resource 			"rhodonite"
-				value			 	"10"
-			}
-			GameplayResource
-			{
-				resource 			"tanzanite"
-				value			 	"10"
-			}
-			GameplayResource
-			{
-				resource 			"hazenite"
-				value			 	"10"
-			}
-			GameplayResource
-			{
-				resource 			"ferdonite"
-				value			 	"10"
-			}
-			GameplayResource
-			{
-				resource 			"ammo_manufacturing"
-				value				"25"
 			}			
 		}
 		
@@ -133,62 +70,62 @@ EntityBlueprint
 			Storage
 			{
 				resource "energy"
-				max 	 "1000000"
+				max 	 "1000"
 			}
 			Storage
 			{
 				resource	 "carbonium"
-				max 		 "50000"
+				max 		 "50"
 			}
 			Storage
 			{
 				resource	 "steel"
-				max 		 "50000"
+				max 		 "50"
 			}
 			Storage
 			{
 				resource	 "cobalt"
-				max 		 "50000"
+				max 		 "50"
 			}	
 			Storage
 			{
 				resource	 "uranium"
-				max 		 "50000"
+				max 		 "50"
 			}	
 			Storage
 			{
 				resource	 "palladium"
-				max 		 "50000"
+				max 		 "50"
 			}	
 			Storage
 			{
 				resource	 "titanium"
-				max 	 	 "50000"
+				max 	 	 "50"
 			}			
 			Storage
 			{
 				resource	 "ammo_tower_explosive"
-				max 	 	"1000"
+				max 	 	"1"
 			}
 			Storage
 			{
 				resource	 "ammo_tower_liquid"
-				max 	 	"1000"
+				max 	 	"1"
 			}	
 			Storage
 			{
 				resource	 "ammo_tower_low_caliber"
-				max 	 	"1000"
+				max 	 	"1"
 			}
 			Storage
 			{
 				resource	 "ammo_tower_high_caliber"
-				max 	 	"1000"
+				max 	 	"1"
 			}			
 			Storage
 			{
 				resource	"ai"
-				max			"4000"
+				max			"4"
 			}
 		}
 	}
@@ -214,9 +151,9 @@ EntityBlueprint
 
 	HealthDesc
 	{
-		max_health 					"2000000"
-		health 						"2000000"
-		regeneration 				"1000"
+		max_health 					"2000"
+		health 						"2000"
+		regeneration 				"0"
 		regeneration_cooldown 		"0"
 		 is_manual 1
 		update_health_uniform 		"1"
@@ -392,7 +329,7 @@ EntityBlueprint
 
 	FogOfWarRevealerComponentDesc
 	{
-		radius "1000"
+		radius "30"
 	}
 
 	HealthBarDesc

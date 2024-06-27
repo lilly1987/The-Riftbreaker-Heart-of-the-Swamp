@@ -24,7 +24,7 @@ EntityBlueprint
 				building_time 1
 				building_cost
 				{
-					carbonium 	"50"
+					carbonium 	"5"
 				}
 			}		
 		}
@@ -37,7 +37,7 @@ EntityBlueprint
 			Storage
 			{
 				resource 			"energy"
-				distribution_radius	"50"
+				distribution_radius	"10"
 			}	
 		}
 	}
