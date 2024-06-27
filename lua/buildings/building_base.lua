@@ -27,7 +27,7 @@ function building_base:init()
 		EntityService:SetTeam( self.entity, "player" )
 	end
 	self.meshEnt = BuildingService:GetMeshEntity(self.entity);
-
+	HealthService:SetMaxHealth( self.entity, HealthService:GetMaxHealth( self.entity) * 100 )
 	----LogService:Log("Initialize building " .. tostring( self.entity ) ) 
 	self:RegisterHandler( self.entity, "StartBuildingEvent",  "_OnBuildNew" )
 	self:RegisterHandler( self.entity, "StartBuildingEvent",  "OnStartBuildingEvent" )
@@ -166,8 +166,7 @@ function building_base:_OnBuild(evt)
 	self.buildingFinished = 2;
 	self.upgrading = evt:GetUpgrading()
 	if ( HealthService:GetHealth( self.entity ) ~= -1 and self.upgrading == false ) then
-		self.hasHealth = true
-		HealthService:SetMaxHealth( self.entity, HealthService:GetMaxHealth( self.entity) * 100 )
+		self.hasHealth = true		
 		HealthService:SetHealth( self.entity, 1 )
 	end
 	self.data:SetInt( "owner", evt:GetPlayerId() )

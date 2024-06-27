@@ -115,6 +115,11 @@ EntityBlueprint
 			{
 				resource 			"ferdonite"
 				value			 	"10"
+			}
+			GameplayResource
+			{
+				resource 			"ammo_manufacturing"
+				value				"25"
 			}			
 		}
 		
