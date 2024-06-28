@@ -13,7 +13,7 @@ end
 function mission_base:GetTileRegionBounds( s, e )
     local world_min = MissionService:GetWorldBoundsMin()
     local world_max = MissionService:GetWorldBoundsMax()
-
+	
     local center_offset = 
     {
         x = math.fmod( ( world_max.x + world_min.x ) / 2.0, 128 ),
@@ -52,25 +52,58 @@ function mission_base:GetNonPlayableRegions()
     return
     {
 		-- Due to camera rotation -x,x is not left right and -z,z is not down up
-        [ "spawn_enemy_border_west" ] =
+        [ "spawn_enemy_border_north" ] =
         {
-            min = { x = playable_min.x,                 y = -10,    z = playable_min.z - margin },
-            max = { x = playable_max.x,                 y = 10,     z = playable_min.z } 
+            min = { x = playable_max.x,                 y = -10,    z = playable_min.z },
+            max = { x = playable_max.x + margin,        y = 10,     z = playable_max.z } 
         },
         [ "spawn_enemy_border_east" ] =
         {
             min = { x = playable_min.x,                 y = -10,    z = playable_max.z },
             max = { x = playable_max.x,                 y = 10,     z = playable_max.z + margin } 
         },
-        [ "spawn_enemy_border_north" ] =
-        {
-            min = { x = playable_max.x,                 y = -10,    z = playable_min.z },
-            max = { x = playable_max.x + margin,        y = 10,     z = playable_max.z } 
-        },
         [ "spawn_enemy_border_south" ] =
         {
             min = { x = playable_min.x - margin,        y = -10,    z = playable_min.z },
             max = { x = playable_min.x,                 y = 10,     z = playable_max.z } 
+        },
+        [ "spawn_enemy_border_west" ] =
+        {
+            min = { x = playable_min.x,                 y = -10,    z = playable_min.z - margin },
+            max = { x = playable_max.x,                 y = 10,     z = playable_min.z } 
+        },
+    };
+end
+
+function mission_base:GetNonPlayableRegionsCorner()
+    local playable_min = MissionService:GetPlayableRegionMin();
+    local playable_max = MissionService:GetPlayableRegionMax();
+	LogService:Log("[GetNonPlayableRegionsTop] playable_min: " .. tostring(playable_min.x) .. "," .. tostring(playable_min.y) .. "," .. tostring(playable_min.z))
+	LogService:Log("[GetNonPlayableRegionsTop] playable_max: " .. tostring(playable_max.x) .. "," .. tostring(playable_max.y) .. "," .. tostring(playable_max.z))
+    local margin = tonumber(ConsoleService:GetConfig("map_non_playable_margin"))
+	LogService:Log("[GetNonPlayableRegionsTop] margin: " .. tostring(margin) )
+    return
+    {
+		-- Due to camera rotation -x,x is not left right and -z,z is not down up
+        [ "spawn_enemy_border_west" ] = --서
+        {
+            min = { x = playable_max.x - margin*3,      y = -10,    z = playable_min.z - margin },
+            max = { x = playable_max.x + margin,        y = 10,     z = playable_min.z + margin*3} 
+        },
+        [ "spawn_enemy_border_north" ] = --북
+        {
+            min = { x = playable_max.x - margin*3,      y = -10,    z = playable_max.z + margin }, 
+            max = { x = playable_max.x + margin,        y = 10,     z = playable_max.z - margin*3}
+        },
+        [ "spawn_enemy_border_east" ] = --동
+        {
+            min = { x = playable_min.x - margin,        y = -10,    z = playable_max.z - margin*3},
+            max = { x = playable_min.x + margin*3,      y = 10,     z = playable_max.z + margin } 
+        },
+        [ "spawn_enemy_border_south" ] = --남
+        {
+            min = { x = playable_min.x - margin,        y = -10,    z = playable_min.z + margin*3} ,
+            max = { x = playable_min.x + margin*3,      y = 10,     z = playable_min.z - margin }
         },
     };
 end
@@ -78,49 +111,47 @@ end
 function mission_base:GetNonPlayableRegionsTop()
     local playable_min = MissionService:GetPlayableRegionMin();
     local playable_max = MissionService:GetPlayableRegionMax();
-
+	LogService:Log("[GetNonPlayableRegionsTop] playable_min: " .. tostring(playable_min.x) .. "," .. tostring(playable_min.y) .. "," .. tostring(playable_min.z))
+	LogService:Log("[GetNonPlayableRegionsTop] playable_max: " .. tostring(playable_max.x) .. "," .. tostring(playable_max.y) .. "," .. tostring(playable_max.z))
     local margin = tonumber(ConsoleService:GetConfig("map_non_playable_margin"))
-	--local spawn_enemy = {
-    --        min = { x = (playable_max.x+playable_min.x)/2 - margin,        y = -10,    z = (playable_max.z+playable_min.z)/2 - margin },
-    --        max = { x = (playable_max.x+playable_min.x)/2 + margin,        y = 10,     z = (playable_max.z+playable_min.z)/2 + margin } 
-	--	};
-	local spawn_enemy = {
-            min = { x = playable_max.x - margin,        y = -10,    z = playable_max.z - margin}, 
-            max = { x = playable_max.x + margin,        y = 10,     z = playable_max.z + margin}
-		};
+	LogService:Log("[GetNonPlayableRegionsTop] margin: " .. tostring(margin) )
+	
+	local spawn_enemy_border = {
+            min = { x = playable_max.x,                 y = -10,    z = playable_min.z },
+            max = { x = playable_max.x + margin,        y = 10,     z = playable_max.z } 
+        }
+
     return
     {
 		-- Due to camera rotation -x,x is not left right and -z,z is not down up
-        [ "spawn_enemy_border_west" ] =spawn_enemy,
-        [ "spawn_enemy_border_east" ] =spawn_enemy,
-        [ "spawn_enemy_border_north" ] =spawn_enemy,
-        [ "spawn_enemy_border_south" ] =spawn_enemy,
+        [ "spawn_enemy_border_west" ]  =spawn_enemy_border,
+        [ "spawn_enemy_border_east" ]  =spawn_enemy_border,
+        [ "spawn_enemy_border_north" ] =spawn_enemy_border,
+        [ "spawn_enemy_border_south" ] =spawn_enemy_border,
     };
+end
+
+function mission_base:GetNonPlayableRegionsCenter()
+    local playable_min = MissionService:GetPlayableRegionMin();
+    local playable_max = MissionService:GetPlayableRegionMax();
+	LogService:Log("[GetNonPlayableRegionsTop] playable_min: " .. tostring(playable_min.x) .. "," .. tostring(playable_min.y) .. "," .. tostring(playable_min.z))
+	LogService:Log("[GetNonPlayableRegionsTop] playable_max: " .. tostring(playable_max.x) .. "," .. tostring(playable_max.y) .. "," .. tostring(playable_max.z))
+    local margin = tonumber(ConsoleService:GetConfig("map_non_playable_margin"))
+	LogService:Log("[GetNonPlayableRegionsTop] margin: " .. tostring(margin) )
 	
-    --return
-    --{
-	--	-- Due to camera rotation -x,x is not left right and -z,z is not down up
-    --    [ "spawn_enemy_border_west" ] =
-    --    {
-    --        min = { x = playable_max.x,                 y = -10,    z = playable_min.z },
-    --        max = { x = playable_max.x + margin,        y = 10,     z = playable_max.z } 
-    --    },
-    --    [ "spawn_enemy_border_east" ] =
-    --    {
-    --        min = { x = playable_max.x,                 y = -10,    z = playable_min.z },
-    --        max = { x = playable_max.x + margin,        y = 10,     z = playable_max.z } 
-    --    },
-    --    [ "spawn_enemy_border_north" ] =
-    --    {
-    --        min = { x = playable_max.x,                 y = -10,    z = playable_min.z },
-    --        max = { x = playable_max.x + margin,        y = 10,     z = playable_max.z } 
-    --    },
-    --    [ "spawn_enemy_border_south" ] =
-    --    {
-    --        min = { x = playable_max.x,                 y = -10,    z = playable_min.z },
-    --        max = { x = playable_max.x + margin,        y = 10,     z = playable_max.z } 
-    --    },
-    --};
+	local spawn_enemy_border = {
+            min = { x = (playable_max.x+playable_min.x)/2 - margin,        y = -10,    z = (playable_max.z+playable_min.z)/2 - margin },
+            max = { x = (playable_max.x+playable_min.x)/2 + margin,        y = 10,     z = (playable_max.z+playable_min.z)/2 + margin } 
+		};
+
+    return
+    {
+		-- Due to camera rotation -x,x is not left right and -z,z is not down up
+        [ "spawn_enemy_border_west" ]  =spawn_enemy_border,
+        [ "spawn_enemy_border_east" ]  =spawn_enemy_border,
+        [ "spawn_enemy_border_north" ] =spawn_enemy_border,
+        [ "spawn_enemy_border_south" ] =spawn_enemy_border,
+    };
 end
 
 function mission_base:RemoveBlueprintsOutOfPlayableBounds(blueprints)
@@ -168,10 +199,13 @@ end
 
 function mission_base:SelectWaveSpawnPoints()
     local groupBounds = self:GetNonPlayableRegionsTop()
+	
     for group,bounds in pairs( groupBounds ) do
         local entities = FindService:FindEntitiesByBlueprintInBox("logic/spawn_enemy", bounds.min, bounds.max );
         Assert( #entities > 0, "Failed to find entities for: `" .. group .. "` in bounds:\nMin: " .. tostring(bounds.min.x) .. "," ..tostring(bounds.min.y) .."," ..tostring(bounds.min.z) .. "\nMax: " .. tostring(bounds.max.x) .. "," ..tostring(bounds.max.y) .."," ..tostring(bounds.max.z) )
-
+		
+		LogService:Log("[GetNonPlayableRegionsTop] #entities: " .. tostring(#entities) )
+		
         for entity in Iter( entities ) do
             EntityService:SetName( entity, group .. "/" .. tostring(entity) );
             EntityService:SetGroup( entity, group );
@@ -278,14 +312,121 @@ function mission_base:SelectPlayerSpawnPoint()
     return MapGenerator:SelectSpawnPoint();
 end
 
+
+function mission_base:GetNonPlayableRegionsMy(t)
+    return
+    {
+		-- Due to camera rotation -x,x is not left right and -z,z is not down up
+        [ "spawn_enemy_border_north" ] = --북
+        {
+            min = t.n.min,
+            max = t.n.max 
+        },
+        [ "spawn_enemy_border_east" ] = --동
+        {
+            min = t.e.min,
+            max = t.e.max 
+        },
+        [ "spawn_enemy_border_south" ] = --남
+        {
+			min = t.s.min,
+            max = t.s.max 
+        },
+        [ "spawn_enemy_border_west" ] = --서
+        {
+            min = t.w.min,
+            max = t.w.max 
+        },
+    };
+end
+
+function mission_base:SelectWaveSpawnPointsMy(t)
+    local groupBounds = self:GetNonPlayableRegionsMy(t)	
+	
+    for group1,bounds in pairs( groupBounds ) do
+        local entities = FindService:FindEntitiesByBlueprintInBox("logic/spawn_enemy", bounds.min, bounds.max );
+        if Assert( #entities > 0, "Failed to find entities for: `" .. group1 .. "` in bounds:\nMin: " .. tostring(bounds.min.x) .. "," ..tostring(bounds.min.y) .."," ..tostring(bounds.min.z) .. "\nMax: " .. tostring(bounds.max.x) .. "," ..tostring(bounds.max.y) .."," ..tostring(bounds.max.z) ) then
+			LogService:Log("[SelectWaveSpawnPointsMy] #entities: " .. tostring(#entities) )
+			LogService:Log("[SelectWaveSpawnPointsMy] group1: " .. group1 )
+			
+			for entity1 in Iter( entities ) do
+				LogService:Log("[SelectWaveSpawnPointsMy] entity1: " .. tostring(entity1) )
+				for group,bounds1 in pairs( groupBounds ) do
+					local position = EntityService:GetPosition( entity1 ) 
+					EntityService:SpawnEntity( "items/consumables/sentry_gun", position.x,position.y,position.z, "")
+					local entity = EntityService:SpawnEntity( "logic/spawn_enemy",position.x,position.y,position.z,"" ) 
+					LogService:Log("[SelectWaveSpawnPointsMy] entity: " .. tostring(entity) )
+					EntityService:SetName( entity, group .. "/" .. tostring(entity) );
+					EntityService:SetGroup( entity, group );
+					EntityService:SpawnAndAttachEntity("logic/spawn_enemy_grid_culler", entity)
+				end
+			end
+			return 0
+		end
+    end
+	return 1
+end
+
 function mission_base:PrepareSpawnPoints(safeRadius)
     if MapGenerator:GetInitialSpawnPoint() == INVALID_ID then
         local spawn_point = self:SelectPlayerSpawnPoint();
         MapGenerator:SetInitialSpawnPoint( spawn_point );
     end
 
-    self:SelectWaveSpawnPoints();
-
+    local playable_min = MissionService:GetPlayableRegionMin();
+    local playable_max = MissionService:GetPlayableRegionMax();
+	local margin = tonumber(ConsoleService:GetConfig("map_non_playable_margin"));
+	local rt=1
+	local ar={}		
+	-- Corner
+	if rt>0 then
+		rt=self:SelectWaveSpawnPointsMy({
+		-- z:가로 x:세로
+        n = --북동
+        {
+            min = { x = playable_max.x - margin*3,      y = -10,    z = playable_max.z - margin*3 } ,
+            max = { x = playable_max.x + margin,        y = 10,     z = playable_max.z + margin}
+        },
+        e = --동남
+        {
+            min = { x = playable_min.x - margin,        y = -10,    z = playable_max.z - margin*3},
+            max = { x = playable_min.x + margin*3,      y = 10,     z = playable_max.z + margin } 
+        },
+        s = --남서
+        {
+            min = { x = playable_min.x - margin,        y = -10,    z = playable_min.z - margin} ,
+            max = { x = playable_min.x + margin*3,      y = 10,     z = playable_min.z + margin*3 }
+        },
+        w = --서북
+        {
+            min = { x = playable_max.x - margin*3,      y = -10,    z = playable_min.z - margin },
+            max = { x = playable_max.x + margin,        y = 10,     z = playable_min.z + margin*3} 
+        },
+    })
+		LogService:Log("[SelectWaveSpawnPointsMy] Corner : " .. tostring(rt) )
+	end
+	-- Center
+	if rt>0 then
+		ar={
+				min = { x = (playable_max.x+playable_min.x)/2 - margin,        y = -10,    z = (playable_max.z+playable_min.z)/2 - margin },
+				max = { x = (playable_max.x+playable_min.x)/2 + margin,        y = 10,     z = (playable_max.z+playable_min.z)/2 + margin } 
+			}
+		rt=self:SelectWaveSpawnPointsMy({w=ar,e=ar,s=ar,n=ar,})
+		LogService:Log("[SelectWaveSpawnPointsMy] Center : " .. tostring(rt) )
+	end
+	-- TOP
+	if rt>0 then
+		ar={
+            min = { x = playable_max.x,                 y = -10,    z = playable_min.z },
+            max = { x = playable_max.x + margin,        y = 10,     z = playable_max.z } 
+        }
+		rt=self:SelectWaveSpawnPointsMy({w=ar,e=ar,s=ar,n=ar,})
+		LogService:Log("[SelectWaveSpawnPointsMy] TOP : " .. tostring(rt) )
+	end
+	-- 
+	if rt>0 then
+		self:SelectWaveSpawnPoints();
+	end
     --self:RemoveBlueprintsOutOfPlayableBounds({ "logic/spawn_objective" });
 
     return spawn_point
