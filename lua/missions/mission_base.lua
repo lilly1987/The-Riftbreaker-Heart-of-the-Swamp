@@ -85,8 +85,8 @@ function mission_base:GetNonPlayableRegionsTop()
     --        max = { x = (playable_max.x+playable_min.x)/2 + margin,        y = 10,     z = (playable_max.z+playable_min.z)/2 + margin } 
 	--	};
 	local spawn_enemy = {
-            min = { x = playable_max.x - margin,        y = -10,    z = playable_max.z - margin } 
-            max = { x = playable_max.x + margin,        y = 10,     z = playable_max.z + margin},
+            min = { x = playable_max.x - margin,        y = -10,    z = playable_max.z - margin}, 
+            max = { x = playable_max.x + margin,        y = 10,     z = playable_max.z + margin}
 		};
     return
     {
