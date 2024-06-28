@@ -80,10 +80,14 @@ function mission_base:GetNonPlayableRegionsTop()
     local playable_max = MissionService:GetPlayableRegionMax();
 
     local margin = tonumber(ConsoleService:GetConfig("map_non_playable_margin"))
+	--local spawn_enemy = {
+    --        min = { x = (playable_max.x+playable_min.x)/2 - margin,        y = -10,    z = (playable_max.z+playable_min.z)/2 - margin },
+    --        max = { x = (playable_max.x+playable_min.x)/2 + margin,        y = 10,     z = (playable_max.z+playable_min.z)/2 + margin } 
+	--	};
 	local spawn_enemy = {
-            min = { x = (playable_max.x+playable_min.x)/2 - margin,        y = -10,    z = (playable_max.z+playable_min.z)/2 - margin },
-            max = { x = (playable_max.x+playable_min.x)/2 + margin,        y = 10,     z = (playable_max.z+playable_min.z)/2 + margin } 
-		}
+            min = { x = playable_max.x - margin,        y = -10,    z = playable_max.z + margin } 
+            max = { x = playable_max.x + margin,        y = 10,     z = playable_max.z - margin},
+		};
     return
     {
 		-- Due to camera rotation -x,x is not left right and -z,z is not down up
@@ -93,30 +97,30 @@ function mission_base:GetNonPlayableRegionsTop()
         [ "spawn_enemy_border_south" ] =spawn_enemy,
     };
 	
-    return
-    {
-		-- Due to camera rotation -x,x is not left right and -z,z is not down up
-        [ "spawn_enemy_border_west" ] =
-        {
-            min = { x = playable_max.x,                 y = -10,    z = playable_min.z },
-            max = { x = playable_max.x + margin,        y = 10,     z = playable_max.z } 
-        },
-        [ "spawn_enemy_border_east" ] =
-        {
-            min = { x = playable_max.x,                 y = -10,    z = playable_min.z },
-            max = { x = playable_max.x + margin,        y = 10,     z = playable_max.z } 
-        },
-        [ "spawn_enemy_border_north" ] =
-        {
-            min = { x = playable_max.x,                 y = -10,    z = playable_min.z },
-            max = { x = playable_max.x + margin,        y = 10,     z = playable_max.z } 
-        },
-        [ "spawn_enemy_border_south" ] =
-        {
-            min = { x = playable_max.x,                 y = -10,    z = playable_min.z },
-            max = { x = playable_max.x + margin,        y = 10,     z = playable_max.z } 
-        },
-    };
+    --return
+    --{
+	--	-- Due to camera rotation -x,x is not left right and -z,z is not down up
+    --    [ "spawn_enemy_border_west" ] =
+    --    {
+    --        min = { x = playable_max.x,                 y = -10,    z = playable_min.z },
+    --        max = { x = playable_max.x + margin,        y = 10,     z = playable_max.z } 
+    --    },
+    --    [ "spawn_enemy_border_east" ] =
+    --    {
+    --        min = { x = playable_max.x,                 y = -10,    z = playable_min.z },
+    --        max = { x = playable_max.x + margin,        y = 10,     z = playable_max.z } 
+    --    },
+    --    [ "spawn_enemy_border_north" ] =
+    --    {
+    --        min = { x = playable_max.x,                 y = -10,    z = playable_min.z },
+    --        max = { x = playable_max.x + margin,        y = 10,     z = playable_max.z } 
+    --    },
+    --    [ "spawn_enemy_border_south" ] =
+    --    {
+    --        min = { x = playable_max.x,                 y = -10,    z = playable_min.z },
+    --        max = { x = playable_max.x + margin,        y = 10,     z = playable_max.z } 
+    --    },
+    --};
 end
 
 function mission_base:RemoveBlueprintsOutOfPlayableBounds(blueprints)
