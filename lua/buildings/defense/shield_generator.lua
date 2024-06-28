@@ -14,8 +14,8 @@ function shield_generator:OnInit()
 	self.interval = 1
 	self.radius = 6
 	
-	self.data:SetFloat("radius",self.data:GetFloatOrDefault("radius", 6)*2)
-	self.data:SetFloat("range",self.data:GetFloatOrDefault("range", 6)*2)
+	--self.data:SetFloat("radius",self.data:GetFloatOrDefault("radius", 6)*2)
+	--self.data:SetFloat("range",self.data:GetFloatOrDefault("range", 6)*2)
 	
 	self.radius = self.data:GetFloatOrDefault("radius", 6)
 	self.interval = self.data:GetFloatOrDefault("interval", 1)

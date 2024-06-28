@@ -23,9 +23,9 @@ EntityBlueprint
 	
 	HealthDesc
 	{
-		max_health 					"200000"
-		health 						"200000"
-		regeneration 				"1000"
+		max_health 					"200"
+		health 						"200"
+		regeneration 				"0"
 		regeneration_cooldown 		"0"
 		is_manual					"1"
 		update_health_uniform 		"1"
@@ -238,16 +238,16 @@ EntityBlueprint
 	{
 		base_stats
 		{
-			health 						"200000"
+			health 						"20000"
 			health_regen				"100"
 			//health_regen_cooldown 		"5"
-			movement_speed				"15"
+			movement_speed				"30"
 
-			forcefield					"1000"
-			forcefield_regen 			"20"
+			forcefield					"2000"
+			forcefield_regen 			"200"
 			forcefield_regen_cooldown 	"10"
 
-			radar_range					"40"
+			radar_range					"80"
 		}
 	}
 

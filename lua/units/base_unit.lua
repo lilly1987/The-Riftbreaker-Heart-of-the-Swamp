@@ -13,7 +13,7 @@ function base_unit:init()
 	SetupUnitScale( self.entity, self.data )
 
 	self.lastDamageGenericTime = 0
-	HealthService:SetMaxHealth( self.entity, HealthService:GetMaxHealth( self.entity) * 10 )
+
 	self:RegisterHandler( self.entity, "DestroyRequest",  "_OnDestroyRequest" )
     self:RegisterHandler( self.entity, "DamageEvent",  "_OnDamageEvent" )
 	self:RegisterHandler( self.entity, "AnimationMarkerReached", "_OnAnimationMarkerReached" )
@@ -28,6 +28,9 @@ function base_unit:init()
 end
 
 function base_unit:OnInit()
+	local hp=HealthService:GetMaxHealth( self.entity) * 10
+	HealthService:SetMaxHealth( hp )
+	HealthService:SetHealth( hp )
 end
 
 function base_unit:_OnDamageEvent( evt )

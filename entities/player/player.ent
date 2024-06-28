@@ -14,62 +14,62 @@ EntityBlueprint
 			Storage
 			{
 				resource	 "carbonium"
-				max 	 	"3000000"
+				max 	 	"30000"
 			}
 			Storage
 			{
 				resource	 "steel"
-				max 	 	"3000000"
+				max 	 	"30000"
 			}
 			Storage
 			{
 				resource	 "uranium_ore"
-				max 	 	"3000000"
+				max 	 	"30000"
 			}	
 			Storage
 			{
 				resource	 "uranium"
-				max 	 	"3000000"
+				max 	 	"30000"
 			}				
 			Storage
 			{
 				resource	 "palladium"
-				max 	 	"3000000"
+				max 	 	"30000"
 			}	
 			Storage
 			{
 				resource	 "titanium"
-				max 	 	"3000000"
+				max 	 	"30000"
 			}		
 			Storage
 			{
 				resource	 "cobalt"
-				max 	 	"3000000"
+				max 	 	"30000"
 			}			
 			Storage
 			{
 				resource	 "ammo_mech_low_caliber"
-				max 	 "4000"
+				max 	 "400"
 			}
 			Storage
 			{
 				resource	 "ammo_mech_high_caliber"
-				max 	 "4000"
+				max 	 "400"
 			}			
 			Storage
 			{
 				resource	 "ammo_mech_liquid"
-				max 	 "4000"
+				max 	 "400"
 			}
 			Storage
 			{
 				resource	 "ammo_mech_explosive"
-				max 	 "4000"
+				max 	 "400"
 			}
 			Storage
 			{
 				resource	 "ammo_mech_energy_cell"
-				max 	 "4000"
+				max 	 "400"
 			}			
 		}
 	}
