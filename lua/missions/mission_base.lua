@@ -340,6 +340,19 @@ function mission_base:GetNonPlayableRegionsMy(t)
     };
 end
 
+function mission_base:RadarPulse(position)
+    local radarPulseEffect = EntityService:SpawnEntity( "items/consumables/radar_pulse", position.x,position.y,position.z, "")
+
+	local radarRevealer = EntityService:GetComponent(radarPulseEffect, "FogOfWarRevealerComponent" )
+	if ( radarRevealer == nil ) then
+		Assert( false, "ERROR: No fog of war revealer component:" )
+	end
+	
+	local helper = reflection_helper( radarRevealer ) 	
+	helper.radius = 100
+	EntityService:CreateOrSetLifetime( radarPulseEffect, 60, "normal" )
+end
+
 function mission_base:SelectWaveSpawnPointsMy(t)
     local groupBounds = self:GetNonPlayableRegionsMy(t)	
 	
@@ -353,7 +366,7 @@ function mission_base:SelectWaveSpawnPointsMy(t)
 				LogService:Log("[SelectWaveSpawnPointsMy] entity1: " .. tostring(entity1) )
 				for group,bounds1 in pairs( groupBounds ) do
 					local position = EntityService:GetPosition( entity1 ) 
-					EntityService:SpawnEntity( "items/consumables/sentry_gun", position.x,position.y,position.z, "")
+					self:RadarPulse( position)
 					local entity = EntityService:SpawnEntity( "logic/spawn_enemy",position.x,position.y,position.z,"" ) 
 					LogService:Log("[SelectWaveSpawnPointsMy] entity: " .. tostring(entity) )
 					EntityService:SetName( entity, group .. "/" .. tostring(entity) );
