@@ -349,8 +349,9 @@ function mission_base:RadarPulse(position)
 	end
 	
 	local helper = reflection_helper( radarRevealer ) 	
-	helper.radius = 100
+	helper.radius = 128
 	EntityService:CreateOrSetLifetime( radarPulseEffect, 60, "normal" )
+	
 end
 
 function mission_base:SelectWaveSpawnPointsMy(t)
@@ -361,11 +362,21 @@ function mission_base:SelectWaveSpawnPointsMy(t)
         if Assert( #entities > 0, "Failed to find entities for: `" .. group1 .. "` in bounds:\nMin: " .. tostring(bounds.min.x) .. "," ..tostring(bounds.min.y) .."," ..tostring(bounds.min.z) .. "\nMax: " .. tostring(bounds.max.x) .. "," ..tostring(bounds.max.y) .."," ..tostring(bounds.max.z) ) then
 			LogService:Log("[SelectWaveSpawnPointsMy] #entities: " .. tostring(#entities) )
 			LogService:Log("[SelectWaveSpawnPointsMy] group1: " .. group1 )
+			local position1={
+			x=(bounds.min.x+bounds.max.x)/2,
+			y=(bounds.min.y+bounds.max.y)/2,
+			z=(bounds.min.z+bounds.max.z)/2,
+			}
+			--BuildingService:CreateRadarComponent( entity1, 128 );
+			self:RadarPulse( position1 )
+			
+			--EntityService:SpawnEntity( "buildings/defense/portal",position1.x,position1.y,position1.z,"player" ) 
 			
 			for entity1 in Iter( entities ) do
 				LogService:Log("[SelectWaveSpawnPointsMy] entity1: " .. tostring(entity1) )
 				local position = EntityService:GetPosition( entity1 ) 
-				self:RadarPulse( position)
+				--EntityService:SpawnAndAttachEntity( "buildings/main/headquarters/portal", entity1)
+				--EntityService:SpawnEntity( "buildings/defense/portal",position.x,position.y,position.z,"player" ) 
 				for group,bounds1 in pairs( groupBounds ) do
 					local entity = EntityService:SpawnEntity( "logic/spawn_enemy",position.x,position.y,position.z,"" ) 
 					LogService:Log("[SelectWaveSpawnPointsMy] entity: " .. tostring(entity) )
@@ -391,6 +402,20 @@ function mission_base:PrepareSpawnPoints(safeRadius)
 	local margin = tonumber(ConsoleService:GetConfig("map_non_playable_margin"));
 	local rt=1
 	local ar={}		
+	
+	EntityService:SpawnEntity( "buildings/defense/portal",0,0,0,"player" ) 
+	
+	EntityService:SpawnEntity( "buildings/defense/portal",playable_min.x+margin*3,10,playable_max.z-margin*3,"player" ) 
+	EntityService:SpawnEntity( "buildings/defense/portal",playable_min.x+margin*3,10,playable_min.z+margin*3,"player" ) 
+	EntityService:SpawnEntity( "buildings/defense/portal",playable_max.x-margin*3,10,playable_min.z+margin*3,"player" ) 
+	EntityService:SpawnEntity( "buildings/defense/portal",playable_max.x-margin*3,10,playable_max.z-margin*3,"player" ) 
+	
+	EntityService:SpawnEntity( "buildings/defense/portal",0,10,playable_max.z-margin*3,"player" ) 
+	EntityService:SpawnEntity( "buildings/defense/portal",0,10,playable_min.z+margin*3,"player" ) 
+	EntityService:SpawnEntity( "buildings/defense/portal",playable_max.x-margin*3,10,0,"player" ) 
+	EntityService:SpawnEntity( "buildings/defense/portal",playable_max.x-margin*3,10,0,"player" ) 
+
+	
 	-- Corner
 	if rt>0 then
 		rt=self:SelectWaveSpawnPointsMy({
