@@ -8,7 +8,7 @@ DifficultyDef
 	enemy_damage_factor						"1.0"
 	building_damage_taken_factor			"1.0"
 	wave_intermission						"15"
-	survival_duration						"86400"
+	survival_duration						"10800"
 	mission_infinite						"1"
 	wave_strength							"brutal"
 	prepare_attack_time_multiplier			"1"

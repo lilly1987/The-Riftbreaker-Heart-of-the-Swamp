@@ -10,9 +10,6 @@ local FXSYSTEM_HANDLES_SOUND 	= 2
 local CURRENT_BASE_UNIT_VERSION = FXSYSTEM_HANDLES_SOUND
 
 function base_unit:init()
-	local hp=HealthService:GetMaxHealth( self.entity) * 10
-	HealthService:SetMaxHealth(self.entity, hp )
-	--HealthService:SetHealth(self.entity, hp )
 	
 	SetupUnitScale( self.entity, self.data )
 
@@ -29,6 +26,11 @@ function base_unit:init()
 
 	Assert( self.wreck_type ~= nil, "ERROR: self.wreck_type is required to be set in unit:OnInit!");
 	Assert( self.wreckMinSpeed ~= nil, "ERROR: self.wreckMinSpeed is required to be set in unit:OnInit!");
+	
+	local hp=HealthService:GetMaxHealth( self.entity) * 10
+	HealthService:SetMaxHealth(self.entity, hp )
+	HealthService:SetHealth(self.entity, hp )
+	--LogService:Log("[base_unit:OnInit] " .. EntityService:GetName(self.entity ) .. " , hp : " .. tostring(hp)  )
 end
 
 function base_unit:OnInit()
