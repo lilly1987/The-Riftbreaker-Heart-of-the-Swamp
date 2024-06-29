@@ -36,7 +36,7 @@ FlowGraphTemplate
 					StringData
 					{
 						key "item"
-						value "items/weapons/trident_extreme_item"
+						value "items/weapons/lava_gun_advanced_item"
 					}
 
 					StringData
@@ -63,7 +63,7 @@ FlowGraphTemplate
 					StringData
 					{
 						key "item"
-						value "items/weapons/trident_extreme_item"
+						value "items/weapons/trident_advanced_item"
 					}
 
 					StringData
@@ -209,7 +209,7 @@ FlowGraphTemplate
 					StringData
 					{
 						key "item"
-						value "items/weapons/swarm_missiles_extreme_item"
+						value "items/weapons/semi_auto_advanced_item"
 					}
 
 					StringData
@@ -759,7 +759,7 @@ FlowGraphTemplate
 					StringData
 					{
 						key "item"
-						value "items/weapons/swarm_missiles_extreme_item"
+						value "items/weapons/blaster_advanced_item"
 					}
 
 					StringData
