@@ -364,9 +364,9 @@ function mission_base:SelectWaveSpawnPointsMy(t)
 			
 			for entity1 in Iter( entities ) do
 				LogService:Log("[SelectWaveSpawnPointsMy] entity1: " .. tostring(entity1) )
+				local position = EntityService:GetPosition( entity1 ) 
+				self:RadarPulse( position)
 				for group,bounds1 in pairs( groupBounds ) do
-					local position = EntityService:GetPosition( entity1 ) 
-					self:RadarPulse( position)
 					local entity = EntityService:SpawnEntity( "logic/spawn_enemy",position.x,position.y,position.z,"" ) 
 					LogService:Log("[SelectWaveSpawnPointsMy] entity: " .. tostring(entity) )
 					EntityService:SetName( entity, group .. "/" .. tostring(entity) );
