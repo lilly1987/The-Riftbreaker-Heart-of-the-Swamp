@@ -10,6 +10,10 @@ local FXSYSTEM_HANDLES_SOUND 	= 2
 local CURRENT_BASE_UNIT_VERSION = FXSYSTEM_HANDLES_SOUND
 
 function base_unit:init()
+	local hp=HealthService:GetMaxHealth( self.entity) * 10
+	HealthService:SetMaxHealth(self.entity, hp )
+	--HealthService:SetHealth(self.entity, hp )
+	
 	SetupUnitScale( self.entity, self.data )
 
 	self.lastDamageGenericTime = 0
@@ -28,9 +32,6 @@ function base_unit:init()
 end
 
 function base_unit:OnInit()
-	local hp=HealthService:GetMaxHealth( self.entity) * 10
-	HealthService:SetMaxHealth(self.entity, hp )
-	HealthService:SetHealth(self.entity, hp )
 end
 
 function base_unit:_OnDamageEvent( evt )
