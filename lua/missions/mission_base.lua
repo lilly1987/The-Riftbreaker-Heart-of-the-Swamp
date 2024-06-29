@@ -403,17 +403,18 @@ function mission_base:PrepareSpawnPoints(safeRadius)
 	local rt=1
 	local ar={}		
 	
+	local margin1=4
 	EntityService:SpawnEntity( "buildings/defense/portal",0,0,0,"player" ) 
 	
-	EntityService:SpawnEntity( "buildings/defense/portal",playable_min.x+margin*3,10,playable_max.z-margin*3,"player" ) 
-	EntityService:SpawnEntity( "buildings/defense/portal",playable_min.x+margin*3,10,playable_min.z+margin*3,"player" ) 
-	EntityService:SpawnEntity( "buildings/defense/portal",playable_max.x-margin*3,10,playable_min.z+margin*3,"player" ) 
-	EntityService:SpawnEntity( "buildings/defense/portal",playable_max.x-margin*3,10,playable_max.z-margin*3,"player" ) 
+	EntityService:SpawnEntity( "buildings/defense/portal",playable_min.x+margin*margin1,10,playable_max.z-margin*margin1,"player" ) 
+	EntityService:SpawnEntity( "buildings/defense/portal",playable_min.x+margin*margin1,10,playable_min.z+margin*margin1,"player" ) 
+	EntityService:SpawnEntity( "buildings/defense/portal",playable_max.x-margin*margin1,10,playable_min.z+margin*margin1,"player" ) 
+	EntityService:SpawnEntity( "buildings/defense/portal",playable_max.x-margin*margin1,10,playable_max.z-margin*margin1,"player" ) 
 	
-	EntityService:SpawnEntity( "buildings/defense/portal",0,10,playable_max.z-margin*3,"player" ) 
-	EntityService:SpawnEntity( "buildings/defense/portal",0,10,playable_min.z+margin*3,"player" ) 
-	EntityService:SpawnEntity( "buildings/defense/portal",playable_max.x-margin*3,10,0,"player" ) 
-	EntityService:SpawnEntity( "buildings/defense/portal",playable_max.x-margin*3,10,0,"player" ) 
+	EntityService:SpawnEntity( "buildings/defense/portal",0,10,playable_max.z-margin*margin1,"player" ) 
+	EntityService:SpawnEntity( "buildings/defense/portal",0,10,playable_min.z+margin*margin1,"player" ) 
+	EntityService:SpawnEntity( "buildings/defense/portal",playable_max.x-margin*margin1,10,0,"player" ) 
+	EntityService:SpawnEntity( "buildings/defense/portal",playable_max.x-margin*margin1,10,0,"player" ) 
 
 	
 	-- Corner

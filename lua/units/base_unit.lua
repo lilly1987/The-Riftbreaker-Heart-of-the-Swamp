@@ -29,8 +29,8 @@ end
 
 function base_unit:OnInit()
 	local hp=HealthService:GetMaxHealth( self.entity) * 10
-	HealthService:SetMaxHealth( hp )
-	HealthService:SetHealth( hp )
+	HealthService:SetMaxHealth(self.entity, hp )
+	HealthService:SetHealth(self.entity, hp )
 end
 
 function base_unit:_OnDamageEvent( evt )
