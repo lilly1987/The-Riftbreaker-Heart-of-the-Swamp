@@ -2795,11 +2795,11 @@ items/upgrades/lilly_standard_item
 		entity_mods
 		{
 			loot_mods_chance "25.000%"
-			loot_resources_chance "25.000%"
-			movement_speed "25.000%"
+			loot_resources_chance "250.000%"
+			movement_speed "20.000%"
 			item_cooldowns "-25.000%"
 			building_time "-25.000%"
-			reflect_damage "25.000%"
+			reflect_damage "250.000%"
 			attack_drone "2.000"
 			defense_drone "1.000"
 			loot_drone "1.000"
@@ -2821,11 +2821,11 @@ items/upgrades/lilly_advanced_item
 		entity_mods
 		{
 			loot_mods_chance "50.000%"
-			loot_resources_chance "50.000%"
-			movement_speed "50.000%"
+			loot_resources_chance "500.000%"
+			movement_speed "40.000%"
 			item_cooldowns "-50.000%"
 			building_time "-50.000%"
-			reflect_damage "50.000%"
+			reflect_damage "500.000%"
 			attack_drone "4.000"
 			defense_drone "2.000"
 			loot_drone "2.000"
@@ -2848,11 +2848,11 @@ items/upgrades/lilly_superior_item
 		entity_mods
 		{
 			loot_mods_chance "75.000%"
-			loot_resources_chance "75.000%"
-			movement_speed "75.000%"
+			loot_resources_chance "7500.000%"
+			movement_speed "60.000%"
 			item_cooldowns "-75.000%"
 			building_time "-75.000%"
-			reflect_damage "75.000%"
+			reflect_damage "750.000%"
 			attack_drone "6.000"
 			defense_drone "3.000"
 			loot_drone "3.000"
@@ -2876,11 +2876,11 @@ items/upgrades/lilly_extreme_item
 		entity_mods
 		{
 			loot_mods_chance "100.000%"
-			loot_resources_chance "100.000%"
-			movement_speed "100.000%"
+			loot_resources_chance "1000.000%"
+			movement_speed "80.000%"
 			item_cooldowns "-100.000%"
 			building_time "-100.000%"
-			reflect_damage "100.000%"
+			reflect_damage "1000.000%"
 			attack_drone "8.000"
 			defense_drone "4.000"
 			loot_drone "4.000"
