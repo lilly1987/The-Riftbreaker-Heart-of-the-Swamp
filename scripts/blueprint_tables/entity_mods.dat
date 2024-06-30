@@ -2788,6 +2788,87 @@ items/upgrades/titanium_machinery_superior_item
 }
 
 
+items/upgrades/lilly_standard_item
+{
+	EntityModDesc
+	{
+		entity_mods
+		{
+			loot_mods_chance "25.000%"
+			loot_resources_chance "25.000%"
+			movement_speed "25.000%"
+			item_cooldowns "-25.000%"
+			building_time "-25.000%"
+			reflect_damage "25.000%"
+			attack_drone "2.000"
+			defense_drone "1.000"
+			loot_drone "1.000"
+			repair_drone "1.000"
+		}
+
+		mod_flags
+		{
+
+		}
+
+	}
+
+}
+items/upgrades/lilly_advanced_item
+{
+	EntityModDesc
+	{
+		entity_mods
+		{
+			loot_mods_chance "50.000%"
+			loot_resources_chance "50.000%"
+			movement_speed "50.000%"
+			item_cooldowns "-50.000%"
+			building_time "-50.000%"
+			reflect_damage "50.000%"
+			attack_drone "4.000"
+			defense_drone "2.000"
+			loot_drone "2.000"
+			repair_drone "2.000"
+		}
+
+		mod_flags
+		{
+
+		}
+
+		rarity "ADVANCED"
+	}
+
+}
+items/upgrades/lilly_superior_item
+{
+	EntityModDesc
+	{
+		entity_mods
+		{
+			loot_mods_chance "75.000%"
+			loot_resources_chance "75.000%"
+			movement_speed "75.000%"
+			item_cooldowns "-75.000%"
+			building_time "-75.000%"
+			reflect_damage "75.000%"
+			attack_drone "6.000"
+			defense_drone "3.000"
+			loot_drone "3.000"
+			repair_drone "3.000"
+		}
+
+		mod_flags
+		{
+
+		}
+
+		rarity "SUPERIOR"
+	}
+
+}
+
 items/upgrades/lilly_extreme_item
 {
 	EntityModDesc
@@ -2797,10 +2878,10 @@ items/upgrades/lilly_extreme_item
 			loot_mods_chance "100.000%"
 			loot_resources_chance "100.000%"
 			movement_speed "100.000%"
-			item_cooldowns "-99.000%"
-			building_time "-99.000%"
+			item_cooldowns "-100.000%"
+			building_time "-100.000%"
 			reflect_damage "100.000%"
-			attack_drone "4.000"
+			attack_drone "8.000"
 			defense_drone "4.000"
 			loot_drone "4.000"
 			repair_drone "4.000"

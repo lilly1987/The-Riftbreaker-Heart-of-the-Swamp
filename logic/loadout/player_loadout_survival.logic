@@ -321,7 +321,7 @@ FlowGraphTemplate
 					StringData
 					{
 						key "item"
-						value "items/upgrades/energy_sensors_standard_item"
+						value "items/upgrades/lilly_extreme_item"
 					}
 
 					StringData
