@@ -36,7 +36,7 @@ FlowGraphTemplate
 					StringData
 					{
 						key "item"
-						value "items/weapons/lava_gun_advanced_item"
+						value "items/weapons/lava_gun_extreme_item"
 					}
 
 					StringData
@@ -63,7 +63,7 @@ FlowGraphTemplate
 					StringData
 					{
 						key "item"
-						value "items/weapons/trident_advanced_item"
+						value "items/weapons/trident_extreme_item"
 					}
 
 					StringData
@@ -209,7 +209,7 @@ FlowGraphTemplate
 					StringData
 					{
 						key "item"
-						value "items/weapons/semi_auto_advanced_item"
+						value "items/weapons/semi_auto_extreme_item"
 					}
 
 					StringData
@@ -273,7 +273,7 @@ FlowGraphTemplate
 					StringData
 					{
 						key "item"
-						value "items/consumables/proximity_mine_advanced_item"
+						value "items/consumables/drone_swarm_extreme_item"
 					}
 
 				}
@@ -294,7 +294,7 @@ FlowGraphTemplate
 					StringData
 					{
 						key "item"
-						value "items/consumables/proximity_mine_advanced_item"
+						value "items/consumables/drone_swarm_extreme_item"
 					}
 
 					StringData
@@ -321,7 +321,7 @@ FlowGraphTemplate
 					StringData
 					{
 						key "item"
-						value "items/upgrades/energy_sensors_advanced_item"
+						value "items/upgrades/lilly_extreme_item"
 					}
 
 					StringData
@@ -759,7 +759,7 @@ FlowGraphTemplate
 					StringData
 					{
 						key "item"
-						value "items/weapons/blaster_advanced_item"
+						value "items/weapons/blaster_extreme_item"
 					}
 
 					StringData

@@ -1,0 +1,14864 @@
+EntityBlueprints
+{
+
+	items/upgrades/lilly_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1.000"
+					resource "carbonium"
+				}
+			}
+
+			is_unique "1"
+		}
+
+	}
+	
+	items/consumables/barricade_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "125.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/barricade_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "175.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/barricade_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "100.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/barricade_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "150.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/cluster_grenade_acid_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "125.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/cluster_grenade_acid_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "175.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/cluster_grenade_acid_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "100.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/cluster_grenade_acid_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "150.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/cryo_sentry_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "375.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/cryo_sentry_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "525.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/cryo_sentry_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/cryo_sentry_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "450.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/defensive_dome_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "125.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/defensive_dome_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "175.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/defensive_dome_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "100.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/defensive_dome_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "150.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/drone_swarm_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "75.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/drone_swarm_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "105.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/drone_swarm_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "60.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/drone_swarm_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "90.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/fertilizer_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "25.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/fertilizer_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "35.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/fertilizer_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "20.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/fertilizer_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "30.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/flare_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "20.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/gas_grenade_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "75.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/gas_grenade_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "105.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/gas_grenade_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "60.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/gas_grenade_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "90.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/grenade_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "25.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/grenade_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "35.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/grenade_gravity_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "75.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/grenade_gravity_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "105.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/grenade_gravity_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "60.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/grenade_gravity_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "90.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/grenade_sonic_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "75.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/grenade_sonic_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "105.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/grenade_sonic_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "60.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/grenade_sonic_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "90.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/grenade_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "20.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/grenade_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "30.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/holo_decoy_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "125.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/holo_decoy_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "175.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/holo_decoy_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "100.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/holo_decoy_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "150.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/mini_miner_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "375.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/mini_miner_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "525.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/mini_miner_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/mini_miner_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "450.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/mobile_turret_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "375.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/mobile_turret_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "525.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/mobile_turret_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/mobile_turret_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "450.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/mortar_sentry_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "375.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/mortar_sentry_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "525.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/mortar_sentry_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/mortar_sentry_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "450.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/proximity_mine_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "25.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/proximity_mine_cryogenic_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "50.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/proximity_mine_cryogenic_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "70.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/proximity_mine_cryogenic_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "40.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/proximity_mine_cryogenic_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "60.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/proximity_mine_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "35.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/proximity_mine_gravity_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "75.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/proximity_mine_gravity_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "105.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/proximity_mine_gravity_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "60.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/proximity_mine_gravity_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "90.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/proximity_mine_nuclear_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "125.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/proximity_mine_nuclear_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "175.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/proximity_mine_nuclear_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "100.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/proximity_mine_nuclear_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "150.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/proximity_mine_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "20.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/proximity_mine_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "30.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/repair_advanced
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "150.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/repair_extreme
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/repair_standard
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "125.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/repair_superior
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "175.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/scanner_turret_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "150.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/scanner_turret_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "250.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/scanner_turret_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "100.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/scanner_turret_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/tesla_turret_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "375.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/tesla_turret_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "525.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/tesla_turret_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/consumables/tesla_turret_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "450.000"
+					resource "consumables_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/interactive/detector_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "100.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/interactive/scanner_advanced_item
+	{
+		CostDesc
+	}
+
+	items/interactive/scanner_extreme_item
+	{
+		CostDesc
+	}
+
+	items/interactive/scanner_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "150.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "150.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/interactive/scanner_superior_item
+	{
+		CostDesc
+	}
+
+	items/loot/weapon_mods/mod_ammo_cost_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "400.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_ammo_cost_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1600.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1600.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_ammo_cost_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_ammo_cost_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "800.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "800.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_ammo_spread_add_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "400.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_ammo_spread_add_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1600.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1600.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_ammo_spread_add_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_ammo_spread_add_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "800.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "800.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_ammo_spread_sub_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "400.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_ammo_spread_sub_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1600.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1600.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_ammo_spread_sub_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_ammo_spread_sub_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "800.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "800.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_autoaim_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "400.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_autoaim_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1600.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1600.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_autoaim_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_autoaim_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "800.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "800.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_cluster_projectiles_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "400.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_cluster_projectiles_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1600.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1600.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_cluster_projectiles_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_cluster_projectiles_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "800.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "800.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_critical_chance_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "400.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_critical_chance_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1600.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1600.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_critical_chance_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_critical_chance_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "800.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "800.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_damage_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "400.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_damage_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1600.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1600.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_damage_over_time_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "400.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_damage_over_time_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1600.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1600.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_damage_over_time_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_damage_over_time_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "800.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "800.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_damage_penetration_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "400.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_damage_penetration_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1600.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1600.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_damage_penetration_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_damage_penetration_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "800.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "800.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_damage_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_damage_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "800.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "800.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_fire_per_burst_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "400.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_fire_per_burst_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1600.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1600.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_fire_per_burst_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_fire_per_burst_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "800.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "800.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_fire_per_shot_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "400.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_fire_per_shot_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1600.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1600.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_fire_per_shot_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_fire_per_shot_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "800.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "800.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_fire_rate_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "400.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_fire_rate_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1600.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1600.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_fire_rate_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_fire_rate_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "800.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "800.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_homing_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "400.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_homing_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1600.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1600.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_homing_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_homing_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "800.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "800.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_lifesteal_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "400.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_lifesteal_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1600.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1600.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_lifesteal_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_lifesteal_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "800.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "800.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_range_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "400.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_range_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1600.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1600.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_range_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_range_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "800.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "800.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_splash_damage_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "400.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_splash_damage_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1600.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1600.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_splash_damage_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_splash_damage_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "800.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "800.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_stun_chance_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "400.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_stun_chance_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1600.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1600.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_stun_chance_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/loot/weapon_mods/mod_stun_chance_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "800.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "800.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/skills/antimatter_ball_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "uranium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/antimatter_ball_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "10000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2500.000"
+					resource "uranium"
+				}
+
+				ResearchCost
+				{
+					count "1250.000"
+					resource "tanzanite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/antimatter_ball_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "uranium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/antimatter_ball_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "uranium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "tanzanite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/damage_trail_acid_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "palladium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/damage_trail_acid_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "10000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "4000.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "rhodonite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/damage_trail_acid_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "palladium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/damage_trail_acid_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "rhodonite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/damage_trail_cryo_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "titanium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/damage_trail_cryo_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "10000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "4000.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "ferdonite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/damage_trail_cryo_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "titanium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/damage_trail_cryo_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "ferdonite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/damage_trail_energy_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "cobalt"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/damage_trail_energy_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "10000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "4000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "tanzanite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/damage_trail_energy_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "cobalt"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/damage_trail_energy_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "tanzanite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/damage_trail_fire_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "uranium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/damage_trail_fire_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "10000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "4000.000"
+					resource "uranium"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "rhodonite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/damage_trail_fire_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "uranium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/damage_trail_fire_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "uranium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "rhodonite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/dash
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/dash_acid_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "palladium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/dash_acid_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "10000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "4000.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "rhodonite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/dash_acid_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "palladium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/dash_acid_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "rhodonite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/dash_cryo_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "titanium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/dash_cryo_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "10000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "4000.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "ferdonite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/dash_cryo_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "titanium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/dash_cryo_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "ferdonite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/dash_energy_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "uranium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/dash_energy_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "10000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "4000.000"
+					resource "uranium"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "tanzanite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/dash_energy_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "uranium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/dash_energy_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "uranium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "tanzanite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/dash_fire_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "250.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/dash_fire_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "4000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "hazenite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/dash_fire_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "cobalt"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/dash_fire_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "hazenite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/dodge_roll_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/emergency_explosion_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "cobalt"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/emergency_explosion_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "10000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "4000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "hazenite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/emergency_explosion_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/emergency_explosion_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "hazenite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/flamewave_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "titanium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/flamewave_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "10000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "4000.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "ferdonite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/flamewave_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "titanium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/flamewave_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "ferdonite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/freeze_ray_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "titanium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/freeze_ray_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "4000.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "ferdonite"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "steel"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/freeze_ray_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "titanium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/freeze_ray_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "ferdonite"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/generator_overcharge_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "cobalt"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/generator_overcharge_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "10000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "5000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "2500.000"
+					resource "tanzanite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/generator_overcharge_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "cobalt"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/generator_overcharge_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1500.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "tanzanite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/invisibility_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "500.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "hazenite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/invisibility_short_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "500.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "hazenite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/jump_acid_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "palladium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/jump_acid_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "10000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "4000.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "rhodonite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/jump_acid_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "palladium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/jump_acid_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "rhodonite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/jump_cryo_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "titanium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/jump_cryo_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "10000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "4000.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "ferdonite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/jump_cryo_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "titanium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/jump_cryo_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "ferdonite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/jump_energy_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "uranium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/jump_energy_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "10000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "4000.000"
+					resource "uranium"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "tanzanite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/jump_energy_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "uranium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/jump_energy_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "uranium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "tanzanite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/jump_fire_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "cobalt"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/jump_fire_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "10000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "4000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "hazenite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/jump_fire_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "cobalt"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/jump_fire_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "hazenite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/jump_splash_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/jump_splash_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "10000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "4000.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "ferdonite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/jump_splash_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "500.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "steel"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/jump_splash_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "ferdonite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/orbital_bombardment_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "uranium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/orbital_bombardment_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "10000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "4000.000"
+					resource "uranium"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "tanzanite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/orbital_bombardment_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "500.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "uranium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/orbital_bombardment_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "uranium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "tanzanite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/orbital_laser_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "cobalt"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/orbital_laser_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "10000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "4000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "ferdonite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/orbital_laser_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "cobalt"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/orbital_laser_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "ferdonite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/radar_pulse_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/radar_pulse_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "10000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "hazenite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/radar_pulse_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/radar_pulse_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "150.000"
+					resource "hazenite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/shield_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "palladium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/shield_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "10000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "4000.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "rhodonite"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "steel"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/shield_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "500.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "steel"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/shield_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "rhodonite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/teleport_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "500.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "uranium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "tanzanite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/teleport_short_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "500.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "tanzanite"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "uranium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/time_warp_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "500.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "rhodonite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/tornado_acid_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "rhodonite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/tornado_acid_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "10000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "rhodonite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/tornado_acid_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "rhodonite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/tornado_acid_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "rhodonite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/tornado_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "250.000"
+					resource "uranium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/tornado_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "2000.000"
+					resource "uranium"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "10000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "tanzanite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/tornado_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "uranium"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/skills/tornado_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "uranium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "tanzanite"
+				}
+
+			}
+
+			is_unique "1"
+		}
+
+	}
+
+	items/test/power_well_all_item
+	{
+		CostDesc
+	}
+
+	items/upgrades/anti_corrosive_armor_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "palladium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/anti_corrosive_armor_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "8000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "8000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/anti_corrosive_armor_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "palladium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/anti_corrosive_armor_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "rhodonite"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "palladium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/armor_plating_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/armor_plating_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "8000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "8000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/armor_plating_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/armor_plating_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/attack_gear_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/attack_gear_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "8000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "8000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/attack_gear_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/attack_gear_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/defense_gear_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/defense_gear_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "8000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "8000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/defense_gear_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/defense_gear_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/defensive_equipment_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/defensive_equipment_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "8000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "8000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/defensive_equipment_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/defensive_equipment_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/discovery_tools_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/discovery_tools_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "8000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "8000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/discovery_tools_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/discovery_tools_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/energy_armor_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "palladium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/energy_armor_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "8000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "8000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/energy_armor_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "palladium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/energy_armor_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "rhodonite"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "palladium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/energy_sensors_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/energy_sensors_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "8000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "8000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/energy_sensors_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/energy_sensors_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/fireproof_armor_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "palladium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/fireproof_armor_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "8000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "8000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/fireproof_armor_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "palladium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/fireproof_armor_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "rhodonite"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "palladium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/fusion_core_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/fusion_core_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "8000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "8000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "uranium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "tanzanite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/fusion_core_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/fusion_core_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "tanzanite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/gathering_tools_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/gathering_tools_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "8000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "8000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/gathering_tools_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/gathering_tools_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/magnetic_pistons_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/magnetic_pistons_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "8000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "8000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/magnetic_pistons_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/magnetic_pistons_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/maintenance_tools_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/maintenance_tools_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "8000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "8000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "uranium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "tanzanite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/maintenance_tools_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/maintenance_tools_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "tanzanite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/offensive_equipment_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/offensive_equipment_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "8000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "8000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/offensive_equipment_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/offensive_equipment_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/plasma_engine_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/plasma_engine_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "8000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "8000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/plasma_engine_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/plasma_engine_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/reflective_armor_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/reflective_armor_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "8000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "8000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/reflective_armor_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/reflective_armor_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/repair_tools_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/repair_tools_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "8000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "8000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/repair_tools_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/repair_tools_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/sonic_sensors_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/sonic_sensors_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "8000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "8000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/sonic_sensors_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/sonic_sensors_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/titanium_machinery_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "titanium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/titanium_machinery_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "8000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "8000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/titanium_machinery_standard_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "titanium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/upgrades/titanium_machinery_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "ferdonite"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "titanium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/aa_missile_launcher_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/aa_missile_launcher_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "15000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "15000.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/aa_missile_launcher_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/aa_missile_launcher_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "5000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "5000.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/aa_plasma_gun_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/aa_plasma_gun_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "15000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "15000.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/aa_plasma_gun_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/aa_plasma_gun_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "5000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "5000.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/acid_spitter_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1400.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/acid_spitter_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "21000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "5250.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2800.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "1400.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/acid_spitter_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "350.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/acid_spitter_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "7000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1750.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/atom_bomb_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "350.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/atom_bomb_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "5250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "21000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2800.000"
+					resource "uranium"
+				}
+
+				ResearchCost
+				{
+					count "1400.000"
+					resource "tanzanite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/atom_bomb_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "100.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/atom_bomb_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1750.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "7000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "tanzanite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/blaster_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "800.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/blaster_demo_item
+	{
+		CostDesc
+		{
+			is_unique "1"
+		}
+
+	}
+
+	items/weapons/blaster_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "12000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1600.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "800.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/blaster_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "50.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/blaster_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "4000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/bouncing_blades_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "350.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1400.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/bouncing_blades_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "5250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "21000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/bouncing_blades_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "100.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/bouncing_blades_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1750.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "7000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/burst_rifle_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/burst_rifle_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3750.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "15000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/burst_rifle_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "75.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/burst_rifle_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "5000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/chainsaw_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "palladium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/chainsaw_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "15000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3750.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/chainsaw_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "75.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/chainsaw_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "5000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1250.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "rhodonite"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "palladium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/charged_bomb_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "uranium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/charged_bomb_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "15000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "4000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "uranium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "tanzanite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/charged_bomb_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "250.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "carbonium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/charged_bomb_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "5000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1500.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "uranium"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "tanzanite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/corrosive_gun_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1400.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/corrosive_gun_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "21000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "5250.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2800.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "1400.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/corrosive_gun_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "350.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/corrosive_gun_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "7000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1750.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/cryo_spitter_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "350.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/cryo_spitter_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "5250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "21000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2500.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/cryo_spitter_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "100.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/cryo_spitter_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1750.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "7000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/cryogenic_atomizer_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "350.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/cryogenic_atomizer_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "5250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "21000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2800.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "1400.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/cryogenic_atomizer_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "100.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/cryogenic_atomizer_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1750.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "7000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "ferdonite"
+				}
+
+				ResearchCost
+				{
+					count "1400.000"
+					resource "titanium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/crystal_gun_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "350.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/crystal_gun_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "5250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "21000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1400.000"
+					resource "ferdonite"
+				}
+
+				ResearchCost
+				{
+					count "2800.000"
+					resource "titanium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/crystal_gun_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "100.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/crystal_gun_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1750.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "7000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "ferdonite"
+				}
+
+				ResearchCost
+				{
+					count "1400.000"
+					resource "titanium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/debug_rifle_advanced_item
+	{
+		CostDesc
+		{
+			is_unique "1"
+		}
+
+	}
+
+	items/weapons/debug_rifle_extreme_item
+	{
+		CostDesc
+		{
+			is_unique "1"
+		}
+
+	}
+
+	items/weapons/debug_rifle_item
+	{
+		CostDesc
+		{
+			is_unique "1"
+		}
+
+	}
+
+	items/weapons/debug_rifle_superior_item
+	{
+		CostDesc
+		{
+			is_unique "1"
+		}
+
+	}
+
+	items/weapons/debug_smg_item
+	{
+		CostDesc
+		{
+			is_unique "1"
+		}
+
+	}
+
+	items/weapons/fire_spitter_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "350.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1400.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "titanium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/fire_spitter_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "5250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "21000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/fire_spitter_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "100.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/fire_spitter_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1750.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "7000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1250.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/flame_blade_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1750.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "600.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "400.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/flame_blade_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1600.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "12000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/flame_blade_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "50.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/flame_blade_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "6000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1750.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "800.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/flamer_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/flamer_demo_item
+	{
+		CostDesc
+		{
+			is_unique "1"
+		}
+
+	}
+
+	items/weapons/flamer_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "15000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3750.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/flamer_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "75.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/flamer_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "5000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1250.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/floating_mines_acid_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "350.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/floating_mines_acid_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "5250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "21000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/floating_mines_acid_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "100.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/floating_mines_acid_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1750.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "7000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/floating_mines_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/floating_mines_cryo_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "350.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1400.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "titanium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/floating_mines_cryo_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "5250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "21000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/floating_mines_cryo_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "100.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/floating_mines_cryo_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1750.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "7000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/floating_mines_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3750.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "15000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "uranium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "tanzanite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/floating_mines_gravity_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "350.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/floating_mines_gravity_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "5250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "21000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2350.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "1250.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/floating_mines_gravity_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "100.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/floating_mines_gravity_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1750.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "7000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1250.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/floating_mines_incendiary_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "350.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/floating_mines_incendiary_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "5250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "21000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1500.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/floating_mines_incendiary_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "100.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/floating_mines_incendiary_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1750.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "7000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "150.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/floating_mines_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "75.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/floating_mines_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "5000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "tanzanite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/grenade_launcher_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1200.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/grenade_launcher_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "4500.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "18000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2400.000"
+					resource "uranium"
+				}
+
+				ResearchCost
+				{
+					count "1200.000"
+					resource "tanzanite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/grenade_launcher_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "75.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/grenade_launcher_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1500.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "6000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "tanzanite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/hammer_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1200.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/hammer_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "4500.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "18000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2400.000"
+					resource "uranium"
+				}
+
+				ResearchCost
+				{
+					count "1200.000"
+					resource "tanzanite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/hammer_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "75.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/hammer_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1500.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "6000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "tanzanite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/heavy_plasma_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1400.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/heavy_plasma_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "21000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "5250.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1200.000"
+					resource "ferdonite"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/heavy_plasma_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "350.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/heavy_plasma_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "7000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1750.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "ferdonite"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/insect_gun_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1400.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/insect_gun_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "21000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "5250.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "1200.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/insect_gun_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "350.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "25.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/insect_gun_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "7000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1750.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/laser_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1400.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/laser_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "21000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "5250.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2800.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "1400.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/laser_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "350.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/laser_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "7000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1750.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/laser_sword_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/laser_sword_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "15000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3750.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1200.000"
+					resource "rhodonite"
+				}
+
+				ResearchCost
+				{
+					count "2400.000"
+					resource "palladium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/laser_sword_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "75.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/laser_sword_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "5000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1250.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "600.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/lava_gun_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1400.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/lava_gun_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "21000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "5250.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/lava_gun_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "350.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/lava_gun_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "7000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1750.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/lightning_gun_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1400.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "titanium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/lightning_gun_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "21000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "5250.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2400.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "1400.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/lightning_gun_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "350.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/lightning_gun_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "7000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1750.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "ferdonite"
+				}
+
+				ResearchCost
+				{
+					count "1200.000"
+					resource "titanium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/minigun_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1200.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/minigun_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "4500.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "18000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2400.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "1200.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/minigun_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "75.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/minigun_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1500.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "6000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1200.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/mortar_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "400.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1500.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/mortar_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "5000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "20000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1400.000"
+					resource "rhodonite"
+				}
+
+				ResearchCost
+				{
+					count "2500.000"
+					resource "uranium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/mortar_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "100.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/mortar_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1700.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "7000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "400.000"
+					resource "rhodonite"
+				}
+
+				ResearchCost
+				{
+					count "1250.000"
+					resource "uranium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/pickaxe_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "350.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1400.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/pickaxe_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "5250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "21000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1500.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "600.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/pickaxe_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "100.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/pickaxe_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1750.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "7000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "150.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/plasma_gun_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/plasma_gun_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "18000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "4500.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2400.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "1200.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/plasma_gun_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "75.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/plasma_gun_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "6000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1500.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/power_fist_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/power_fist_basic_item
+	{
+		CostDesc
+	}
+
+	items/weapons/power_fist_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "15000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3750.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/power_fist_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "75.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/power_fist_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "5000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1250.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/railgun_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1400.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/railgun_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "21000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "5250.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2800.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "1400.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/railgun_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "350.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "150.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/railgun_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "7000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1750.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1400.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/rocket_launcher_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1200.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/rocket_launcher_demo_item
+	{
+		CostDesc
+		{
+			is_unique "1"
+		}
+
+	}
+
+	items/weapons/rocket_launcher_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "4500.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "18000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2400.000"
+					resource "uranium"
+				}
+
+				ResearchCost
+				{
+					count "1200.000"
+					resource "tanzanite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/rocket_launcher_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "75.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/rocket_launcher_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1500.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "6000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "tanzanite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/root_gun_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/root_gun_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "2400.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "18000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "4500.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1200.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/root_gun_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "25.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/root_gun_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "6000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1500.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "rhodonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/semi_auto_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1200.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/semi_auto_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "4000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "17000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/semi_auto_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "300.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "carbonium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/semi_auto_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "2000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "8000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "300.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/shotgun_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/shotgun_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3750.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "15000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/shotgun_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "75.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/shotgun_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "5000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/small_machinegun_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "200.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "800.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/small_machinegun_demo_item
+	{
+		CostDesc
+		{
+			is_unique "1"
+		}
+
+	}
+
+	items/weapons/small_machinegun_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "12000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1600.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "800.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/small_machinegun_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "50.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/small_machinegun_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "4000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/sniper_rifle_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/sniper_rifle_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "3750.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "15000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/sniper_rifle_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "75.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/sniper_rifle_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "5000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "cobalt"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/sonic_fist_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "350.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/sonic_fist_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "5250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "21000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1500.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "500.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/sonic_fist_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "100.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/sonic_fist_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1750.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "7000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "200.000"
+					resource "palladium"
+				}
+
+				ResearchCost
+				{
+					count "50.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/spear_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/spear_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "15000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3750.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/spear_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "75.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/spear_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "5000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1250.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/swarm_missiles_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "350.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1400.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/swarm_missiles_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "5250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "21000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "2800.000"
+					resource "titanium"
+				}
+
+				ResearchCost
+				{
+					count "1400.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/swarm_missiles_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "100.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/swarm_missiles_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1750.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "7000.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "350.000"
+					resource "ferdonite"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/sword_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/sword_demo_item
+	{
+		CostDesc
+		{
+			is_unique "1"
+		}
+
+	}
+
+	items/weapons/sword_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "15000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3750.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "ferdonite"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/sword_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "75.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/sword_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "5000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1250.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "ferdonite"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "cobalt"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/trident_advanced_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "1000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/trident_extreme_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "15000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "3750.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "1000.000"
+					resource "hazenite"
+				}
+
+				ResearchCost
+				{
+					count "2000.000"
+					resource "titanium"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/trident_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "250.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "100.000"
+					resource "steel"
+				}
+
+			}
+
+		}
+
+	}
+
+	items/weapons/trident_superior_item
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "5000.000"
+					resource "carbonium"
+				}
+
+				ResearchCost
+				{
+					count "1250.000"
+					resource "steel"
+				}
+
+				ResearchCost
+				{
+					count "250.000"
+					resource "hazenite"
+				}
+
+			}
+
+		}
+
+	}
+
+	props/special/interactive/large_spore_sample_item
+	{
+		CostDesc
+	}
+
+	props/special/interactive/poogret_food_item
+	{
+		CostDesc
+	}
+
+	props/special/interactive/special_eggs_item
+	{
+		CostDesc
+	}
+
+}
+
+GameplayResources
+{
+	ammo_mech_energy_cell
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "15.000"
+					resource "player_ammo_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	ammo_mech_explosive
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "15.000"
+					resource "player_ammo_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	ammo_mech_high_caliber
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "15.000"
+					resource "player_ammo_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	ammo_mech_liquid
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "15.000"
+					resource "player_ammo_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	ammo_mech_low_caliber
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "15.000"
+					resource "player_ammo_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	ammo_tower_explosive
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "20.000"
+					resource "ammo_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	ammo_tower_high_caliber
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "20.000"
+					resource "ammo_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	ammo_tower_liquid
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "20.000"
+					resource "ammo_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+	ammo_tower_low_caliber
+	{
+		CostDesc
+		{
+			account
+			{
+				ResearchCost
+				{
+					count "20.000"
+					resource "ammo_manufacturing"
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
