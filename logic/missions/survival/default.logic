@@ -204,14 +204,14 @@ FlowGraphTemplate
 					{
 						//editor "layout(data_block_resource.xml)|pos(0,0)"
 						key "steel"
-						value "30000.00"
+						value "300000.00"
 					}
 
 					StringData
 					{
 						//editor "layout(data_block_resource.xml)|pos(0,0)"
 						key "carbonium"
-						value "30000.00"
+						value "300000.00"
 					}
 					StringData
 					{

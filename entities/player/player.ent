@@ -14,12 +14,12 @@ EntityBlueprint
 			Storage
 			{
 				resource	 "carbonium"
-				max 	 	"30000"
+				max 	 	"300000"
 			}
 			Storage
 			{
 				resource	 "steel"
-				max 	 	"30000"
+				max 	 	"300000"
 			}
 			Storage
 			{

@@ -337,7 +337,33 @@ function mission_base:PrepareSpawnPoints(safeRadius)
 	EntityService:SpawnEntity( "buildings/defense/portal",playable_max.x-margin*margin1,10,0,"player" ) 
 	EntityService:SpawnEntity( "buildings/defense/portal",playable_max.x-margin*margin1,10,0,"player" ) 
 
-	
+	-- TOP Center
+	if rt>0 then
+		rt=self:SelectWaveSpawnPointsMy({
+		-- z:가로 x:세로
+        n = --북
+        {
+            min = { x = playable_max.x - margin*3,      y = -10,    z = (playable_max.z+playable_min.z)/2 - margin*2 },
+            max = { x = playable_max.x + margin,        y = 10,     z = (playable_max.z+playable_min.z)/2 + margin*2 } 
+        },
+        e = --동
+        {
+            min = { x = (playable_max.x+playable_min.x)/2  + margin*2,                   y = -10,    z = playable_max.z - margin*3 },
+            max = { x = (playable_max.x+playable_min.x)/2  - margin*2,                   y = 10,     z = playable_max.z + margin } 
+        },
+        s = --남
+        {
+            min = { x = playable_min.x - margin,        y = -10,    z = (playable_max.z+playable_min.z)/2 + margin*2 },
+            max = { x = playable_min.x + margin*3,      y = 10,     z = (playable_max.z+playable_min.z)/2 - margin*2 } 
+        },
+        w = --서
+        {
+            min = { x = (playable_max.x+playable_min.x)/2  + margin*2,                   y = -10,    z = playable_min.z - margin },
+            max = { x = (playable_max.x+playable_min.x)/2  - margin*2,                   y = 10,     z = playable_min.z + margin*3 } 
+        },
+    })
+		LogService:Log("[SelectWaveSpawnPointsMy] TOP Corner : " .. tostring(rt) )
+	end
 	-- Corner
 	if rt>0 then
 		rt=self:SelectWaveSpawnPointsMy({
