@@ -343,23 +343,23 @@ function mission_base:PrepareSpawnPoints(safeRadius)
 		-- z:가로 x:세로
         n = --북
         {
-            min = { x = playable_max.x - margin*3,      y = -10,    z = (playable_max.z+playable_min.z)/2 - margin*2 },
+            min = { x = playable_max.x - margin*1,      y = -10,    z = (playable_max.z+playable_min.z)/2 - margin*2 },
             max = { x = playable_max.x + margin,        y = 10,     z = (playable_max.z+playable_min.z)/2 + margin*2 } 
         },
         e = --동
         {
-            min = { x = (playable_max.x+playable_min.x)/2  + margin*2,                   y = -10,    z = playable_max.z - margin*3 },
-            max = { x = (playable_max.x+playable_min.x)/2  - margin*2,                   y = 10,     z = playable_max.z + margin } 
+            min = { x = (playable_max.x+playable_min.x)/2  + margin*2,  y = -10,    z = playable_max.z - margin*1 },
+            max = { x = (playable_max.x+playable_min.x)/2  - margin*2,  y = 10,     z = playable_max.z + margin } 
         },
         s = --남
         {
             min = { x = playable_min.x - margin,        y = -10,    z = (playable_max.z+playable_min.z)/2 + margin*2 },
-            max = { x = playable_min.x + margin*3,      y = 10,     z = (playable_max.z+playable_min.z)/2 - margin*2 } 
+            max = { x = playable_min.x + margin*1,      y = 10,     z = (playable_max.z+playable_min.z)/2 - margin*2 } 
         },
         w = --서
         {
-            min = { x = (playable_max.x+playable_min.x)/2  + margin*2,                   y = -10,    z = playable_min.z - margin },
-            max = { x = (playable_max.x+playable_min.x)/2  - margin*2,                   y = 10,     z = playable_min.z + margin*3 } 
+            min = { x = (playable_max.x+playable_min.x)/2  + margin*2,   y = -10,    z = playable_min.z - margin },
+            max = { x = (playable_max.x+playable_min.x)/2  - margin*2,   y = 10,     z = playable_min.z + margin*1 } 
         },
     })
 		LogService:Log("[SelectWaveSpawnPointsMy] TOP Corner : " .. tostring(rt) )
@@ -368,6 +368,11 @@ function mission_base:PrepareSpawnPoints(safeRadius)
 	if rt>0 then
 		rt=self:SelectWaveSpawnPointsMy({
 		-- z:가로 x:세로
+        w = --서북
+        {
+            min = { x = playable_max.x - margin*3,      y = -10,    z = playable_min.z - margin },
+            max = { x = playable_max.x + margin,        y = 10,     z = playable_min.z + margin*3} 
+        },
         n = --북동
         {
             min = { x = playable_max.x - margin*3,      y = -10,    z = playable_max.z - margin*3 } ,
@@ -383,30 +388,41 @@ function mission_base:PrepareSpawnPoints(safeRadius)
             min = { x = playable_min.x - margin,        y = -10,    z = playable_min.z - margin} ,
             max = { x = playable_min.x + margin*3,      y = 10,     z = playable_min.z + margin*3 }
         },
-        w = --서북
-        {
-            min = { x = playable_max.x - margin*3,      y = -10,    z = playable_min.z - margin },
-            max = { x = playable_max.x + margin,        y = 10,     z = playable_min.z + margin*3} 
-        },
     })
 		LogService:Log("[SelectWaveSpawnPointsMy] Corner : " .. tostring(rt) )
 	end
 	-- Center
 	if rt>0 then
-		ar={
+		rt=self:SelectWaveSpawnPointsMy({w={
 				min = { x = (playable_max.x+playable_min.x)/2 - margin,        y = -10,    z = (playable_max.z+playable_min.z)/2 - margin },
 				max = { x = (playable_max.x+playable_min.x)/2 + margin,        y = 10,     z = (playable_max.z+playable_min.z)/2 + margin } 
-			}
-		rt=self:SelectWaveSpawnPointsMy({w=ar,e=ar,s=ar,n=ar,})
+			},e={
+				min = { x = (playable_max.x+playable_min.x)/2 - margin*1.5,        y = -10,    z = (playable_max.z+playable_min.z)/2 - margin*1.5 },
+				max = { x = (playable_max.x+playable_min.x)/2 + margin*1.5,        y = 10,     z = (playable_max.z+playable_min.z)/2 + margin*1.5 } 
+			},s={
+				min = { x = (playable_max.x+playable_min.x)/2 - margin*2,        y = -10,    z = (playable_max.z+playable_min.z)/2 - margin*2 },
+				max = { x = (playable_max.x+playable_min.x)/2 + margin*2,        y = 10,     z = (playable_max.z+playable_min.z)/2 + margin*2 } 
+			},n={
+				min = { x = (playable_max.x+playable_min.x)/2 - margin*2.5,        y = -10,    z = (playable_max.z+playable_min.z)/2 - margin*2.5 },
+				max = { x = (playable_max.x+playable_min.x)/2 + margin*2.5,        y = 10,     z = (playable_max.z+playable_min.z)/2 + margin*2.5 } 
+			},})
 		LogService:Log("[SelectWaveSpawnPointsMy] Center : " .. tostring(rt) )
 	end
 	-- TOP
 	if rt>0 then
-		ar={
+		rt=self:SelectWaveSpawnPointsMy({n={
             min = { x = playable_max.x,                 y = -10,    z = playable_min.z },
             max = { x = playable_max.x + margin,        y = 10,     z = playable_max.z } 
-        }
-		rt=self:SelectWaveSpawnPointsMy({w=ar,e=ar,s=ar,n=ar,})
+        },s={
+            min = { x = playable_min.x - margin,        y = -10,    z = playable_min.z },
+            max = { x = playable_min.x ,                y = 10,     z = playable_max.z } 
+        },e={
+            min = { x = playable_min.x,                 y = -10,    z = playable_max.z },
+            max = { x = playable_max.x,                 y = 10,     z = playable_max.z + margin} 
+        },w={
+            min = { x = playable_min.x,                 y = -10,    z = playable_min.z - margin },
+            max = { x = playable_max.x,                 y = 10,     z = playable_min.z } 
+        },})
 		LogService:Log("[SelectWaveSpawnPointsMy] TOP : " .. tostring(rt) )
 	end
 	-- 

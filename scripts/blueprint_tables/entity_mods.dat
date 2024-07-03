@@ -2877,7 +2877,7 @@ items/upgrades/lilly_extreme_item
 		{
 			loot_mods_chance "100.000%"
 			loot_resources_chance "1000.000%"
-			movement_speed "80.000%"
+			movement_speed "70.000%"
 			item_cooldowns "-100.000%"
 			building_time "-100.000%"
 			reflect_damage "1000.000%"
