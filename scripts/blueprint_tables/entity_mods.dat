@@ -20,15 +20,15 @@ items/upgrades/anti_corrosive_armor_advanced_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			resistance_physical "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "ADVANCED"
@@ -58,15 +58,15 @@ items/upgrades/anti_corrosive_armor_extreme_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			resistance_physical "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "EXTREME"
@@ -96,15 +96,15 @@ items/upgrades/anti_corrosive_armor_standard_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			resistance_physical "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
 		}
 
 	}
@@ -133,15 +133,15 @@ items/upgrades/anti_corrosive_armor_superior_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			resistance_physical "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "SUPERIOR"
@@ -172,16 +172,16 @@ items/upgrades/armor_plating_advanced_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			reflect_damage "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "ADVANCED"
@@ -212,16 +212,16 @@ items/upgrades/armor_plating_extreme_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			reflect_damage "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "EXTREME"
@@ -252,16 +252,16 @@ items/upgrades/armor_plating_standard_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			reflect_damage "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
 		}
 
 	}
@@ -291,16 +291,16 @@ items/upgrades/armor_plating_superior_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			reflect_damage "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "SUPERIOR"
@@ -329,14 +329,14 @@ items/upgrades/attack_gear_advanced_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			loot_resources_chance "random"
-			movement_speed "random"
-			reflect_damage "random"
+
+
+
+
+
+
+
+
 		}
 
 		rarity "ADVANCED"
@@ -365,14 +365,14 @@ items/upgrades/attack_gear_extreme_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			loot_resources_chance "random"
-			movement_speed "random"
-			reflect_damage "random"
+
+
+
+
+
+
+
+
 		}
 
 		rarity "EXTREME"
@@ -401,14 +401,14 @@ items/upgrades/attack_gear_standard_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			loot_resources_chance "random"
-			movement_speed "random"
-			reflect_damage "random"
+
+
+
+
+
+
+
+
 		}
 
 	}
@@ -436,14 +436,14 @@ items/upgrades/attack_gear_superior_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			loot_resources_chance "random"
-			movement_speed "random"
-			reflect_damage "random"
+
+
+
+
+
+
+
+
 		}
 
 		rarity "SUPERIOR"
@@ -478,20 +478,20 @@ items/upgrades/defense_gear_advanced_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			radar_range "random"
-			item_cooldowns "random"
-			reflect_damage "random"
-			resistance_all "random"
-			resistance_physical "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "ADVANCED"
@@ -526,20 +526,20 @@ items/upgrades/defense_gear_extreme_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			radar_range "random"
-			item_cooldowns "random"
-			reflect_damage "random"
-			resistance_all "random"
-			resistance_physical "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "EXTREME"
@@ -574,20 +574,20 @@ items/upgrades/defense_gear_standard_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			radar_range "random"
-			item_cooldowns "random"
-			reflect_damage "random"
-			resistance_all "random"
-			resistance_physical "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		}
 
 	}
@@ -621,20 +621,20 @@ items/upgrades/defense_gear_superior_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			radar_range "random"
-			item_cooldowns "random"
-			reflect_damage "random"
-			resistance_all "random"
-			resistance_physical "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "SUPERIOR"
@@ -669,20 +669,20 @@ items/upgrades/defensive_equipment_advanced_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			radar_range "random"
-			loot_mods_chance "random"
-			loot_resources_chance "random"
-			reflect_damage "random"
-			resistance_physical "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "ADVANCED"
@@ -717,20 +717,20 @@ items/upgrades/defensive_equipment_extreme_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			radar_range "random"
-			loot_mods_chance "random"
-			loot_resources_chance "random"
-			reflect_damage "random"
-			resistance_physical "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "EXTREME"
@@ -765,20 +765,20 @@ items/upgrades/defensive_equipment_standard_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			radar_range "random"
-			loot_mods_chance "random"
-			loot_resources_chance "random"
-			reflect_damage "random"
-			resistance_physical "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		}
 
 	}
@@ -812,20 +812,20 @@ items/upgrades/defensive_equipment_superior_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			radar_range "random"
-			loot_mods_chance "random"
-			loot_resources_chance "random"
-			reflect_damage "random"
-			resistance_physical "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "SUPERIOR"
@@ -856,16 +856,16 @@ items/upgrades/discovery_tools_advanced_item
 
 		mod_flags
 		{
-			loot_mods_chance "random"
-			loot_resources_chance "random"
-			item_cooldowns "random"
-			resistance_all "random"
-			resistance_physical "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "ADVANCED"
@@ -896,16 +896,16 @@ items/upgrades/discovery_tools_extreme_item
 
 		mod_flags
 		{
-			loot_mods_chance "random"
-			loot_resources_chance "random"
-			item_cooldowns "random"
-			resistance_all "random"
-			resistance_physical "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "EXTREME"
@@ -936,16 +936,16 @@ items/upgrades/discovery_tools_standard_item
 
 		mod_flags
 		{
-			loot_mods_chance "random"
-			loot_resources_chance "random"
-			item_cooldowns "random"
-			resistance_all "random"
-			resistance_physical "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
 		}
 
 	}
@@ -975,16 +975,16 @@ items/upgrades/discovery_tools_superior_item
 
 		mod_flags
 		{
-			loot_mods_chance "random"
-			loot_resources_chance "random"
-			item_cooldowns "random"
-			resistance_all "random"
-			resistance_physical "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "SUPERIOR"
@@ -1015,16 +1015,16 @@ items/upgrades/energy_armor_advanced_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			reflect_damage "random"
-			resistance_physical "random"
-			resistance_fire "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "ADVANCED"
@@ -1055,16 +1055,16 @@ items/upgrades/energy_armor_extreme_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			reflect_damage "random"
-			resistance_physical "random"
-			resistance_fire "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "EXTREME"
@@ -1095,16 +1095,16 @@ items/upgrades/energy_armor_standard_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			reflect_damage "random"
-			resistance_physical "random"
-			resistance_fire "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
 		}
 
 	}
@@ -1134,16 +1134,16 @@ items/upgrades/energy_armor_superior_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			reflect_damage "random"
-			resistance_physical "random"
-			resistance_fire "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "SUPERIOR"
@@ -1168,10 +1168,10 @@ items/upgrades/energy_sensors_advanced_item
 
 		mod_flags
 		{
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			radar_range "random"
-			item_cooldowns "random"
+
+
+
+
 		}
 
 		rarity "ADVANCED"
@@ -1196,10 +1196,10 @@ items/upgrades/energy_sensors_extreme_item
 
 		mod_flags
 		{
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			radar_range "random"
-			item_cooldowns "random"
+
+
+
+
 		}
 
 		rarity "EXTREME"
@@ -1224,10 +1224,10 @@ items/upgrades/energy_sensors_standard_item
 
 		mod_flags
 		{
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			radar_range "random"
-			item_cooldowns "random"
+
+
+
+
 		}
 
 	}
@@ -1251,10 +1251,10 @@ items/upgrades/energy_sensors_superior_item
 
 		mod_flags
 		{
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			radar_range "random"
-			item_cooldowns "random"
+
+
+
+
 		}
 
 		rarity "SUPERIOR"
@@ -1284,15 +1284,15 @@ items/upgrades/fireproof_armor_advanced_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			resistance_physical "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "ADVANCED"
@@ -1322,15 +1322,15 @@ items/upgrades/fireproof_armor_extreme_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			resistance_physical "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "EXTREME"
@@ -1360,15 +1360,15 @@ items/upgrades/fireproof_armor_standard_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			resistance_physical "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
 		}
 
 	}
@@ -1397,15 +1397,15 @@ items/upgrades/fireproof_armor_superior_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			resistance_physical "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "SUPERIOR"
@@ -1433,13 +1433,13 @@ items/upgrades/fusion_core_advanced_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			movement_speed "random"
-			item_cooldowns "random"
-			resistance_energy "random"
+
+
+
+
+
+
+
 		}
 
 		rarity "ADVANCED"
@@ -1467,13 +1467,13 @@ items/upgrades/fusion_core_extreme_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			movement_speed "random"
-			item_cooldowns "random"
-			resistance_energy "random"
+
+
+
+
+
+
+
 		}
 
 		rarity "EXTREME"
@@ -1501,13 +1501,13 @@ items/upgrades/fusion_core_standard_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			movement_speed "random"
-			item_cooldowns "random"
-			resistance_energy "random"
+
+
+
+
+
+
+
 		}
 
 	}
@@ -1534,13 +1534,13 @@ items/upgrades/fusion_core_superior_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			movement_speed "random"
-			item_cooldowns "random"
-			resistance_energy "random"
+
+
+
+
+
+
+
 		}
 
 		rarity "SUPERIOR"
@@ -1569,14 +1569,14 @@ items/upgrades/gathering_tools_advanced_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			radar_range "random"
-			movement_speed "random"
-			item_cooldowns "random"
+
+
+
+
+
+
+
+
 		}
 
 		rarity "ADVANCED"
@@ -1605,14 +1605,14 @@ items/upgrades/gathering_tools_extreme_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			radar_range "random"
-			movement_speed "random"
-			item_cooldowns "random"
+
+
+
+
+
+
+
+
 		}
 
 		rarity "EXTREME"
@@ -1641,14 +1641,14 @@ items/upgrades/gathering_tools_standard_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			radar_range "random"
-			movement_speed "random"
-			item_cooldowns "random"
+
+
+
+
+
+
+
+
 		}
 
 	}
@@ -1676,14 +1676,14 @@ items/upgrades/gathering_tools_superior_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			radar_range "random"
-			movement_speed "random"
-			item_cooldowns "random"
+
+
+
+
+
+
+
+
 		}
 
 		rarity "SUPERIOR"
@@ -1710,12 +1710,12 @@ items/upgrades/magnetic_pistons_advanced_item
 
 		mod_flags
 		{
-			health "random"
-			building_time "random"
-			reflect_damage "random"
-			building_cost "random"
-			resistance_all "random"
-			resistance_physical "random"
+
+
+
+
+
+
 		}
 
 		rarity "ADVANCED"
@@ -1742,12 +1742,12 @@ items/upgrades/magnetic_pistons_extreme_item
 
 		mod_flags
 		{
-			health "random"
-			building_time "random"
-			reflect_damage "random"
-			building_cost "random"
-			resistance_all "random"
-			resistance_physical "random"
+
+
+
+
+
+
 		}
 
 		rarity "EXTREME"
@@ -1774,12 +1774,12 @@ items/upgrades/magnetic_pistons_standard_item
 
 		mod_flags
 		{
-			health "random"
-			building_time "random"
-			reflect_damage "random"
-			building_cost "random"
-			resistance_all "random"
-			resistance_physical "random"
+
+
+
+
+
+
 		}
 
 	}
@@ -1805,12 +1805,12 @@ items/upgrades/magnetic_pistons_superior_item
 
 		mod_flags
 		{
-			health "random"
-			building_time "random"
-			reflect_damage "random"
-			building_cost "random"
-			resistance_all "random"
-			resistance_physical "random"
+
+
+
+
+
+
 		}
 
 		rarity "SUPERIOR"
@@ -1839,14 +1839,14 @@ items/upgrades/maintenance_tools_advanced_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			movement_speed "random"
-			item_cooldowns "random"
-			resistance_all "random"
+
+
+
+
+
+
+
+
 		}
 
 		rarity "ADVANCED"
@@ -1875,14 +1875,14 @@ items/upgrades/maintenance_tools_extreme_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			movement_speed "random"
-			item_cooldowns "random"
-			resistance_all "random"
+
+
+
+
+
+
+
+
 		}
 
 		rarity "EXTREME"
@@ -1911,14 +1911,14 @@ items/upgrades/maintenance_tools_standard_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			movement_speed "random"
-			item_cooldowns "random"
-			resistance_all "random"
+
+
+
+
+
+
+
+
 		}
 
 	}
@@ -1946,14 +1946,14 @@ items/upgrades/maintenance_tools_superior_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			movement_speed "random"
-			item_cooldowns "random"
-			resistance_all "random"
+
+
+
+
+
+
+
+
 		}
 
 		rarity "SUPERIOR"
@@ -1987,19 +1987,19 @@ items/upgrades/offensive_equipment_advanced_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			item_cooldowns "random"
-			resistance_all "random"
-			resistance_physical "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "ADVANCED"
@@ -2033,19 +2033,19 @@ items/upgrades/offensive_equipment_extreme_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			item_cooldowns "random"
-			resistance_all "random"
-			resistance_physical "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "EXTREME"
@@ -2079,19 +2079,19 @@ items/upgrades/offensive_equipment_standard_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			item_cooldowns "random"
-			resistance_all "random"
-			resistance_physical "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
+
+
+
 		}
 
 	}
@@ -2124,19 +2124,19 @@ items/upgrades/offensive_equipment_superior_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			item_cooldowns "random"
-			resistance_all "random"
-			resistance_physical "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "SUPERIOR"
@@ -2163,12 +2163,12 @@ items/upgrades/plasma_engine_advanced_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			radar_range "random"
-			resistance_energy "random"
+
+
+
+
+
+
 		}
 
 		rarity "ADVANCED"
@@ -2195,12 +2195,12 @@ items/upgrades/plasma_engine_extreme_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			radar_range "random"
-			resistance_energy "random"
+
+
+
+
+
+
 		}
 
 		rarity "EXTREME"
@@ -2227,12 +2227,12 @@ items/upgrades/plasma_engine_standard_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			radar_range "random"
-			resistance_energy "random"
+
+
+
+
+
+
 		}
 
 	}
@@ -2258,12 +2258,12 @@ items/upgrades/plasma_engine_superior_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			radar_range "random"
-			resistance_energy "random"
+
+
+
+
+
+
 		}
 
 		rarity "SUPERIOR"
@@ -2294,16 +2294,16 @@ items/upgrades/reflective_armor_advanced_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			resistance_all "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "ADVANCED"
@@ -2334,16 +2334,16 @@ items/upgrades/reflective_armor_extreme_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			resistance_all "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "EXTREME"
@@ -2374,16 +2374,16 @@ items/upgrades/reflective_armor_standard_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			resistance_all "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
 		}
 
 	}
@@ -2413,16 +2413,16 @@ items/upgrades/reflective_armor_superior_item
 
 		mod_flags
 		{
-			health_regen "random"
-			forcefield "random"
-			forcefield_regen "random"
-			forcefield_regen_cooldown "random"
-			resistance_all "random"
-			resistance_fire "random"
-			resistance_energy "random"
-			resistance_acid "random"
-			resistance_cryo "random"
-			resistance_area "random"
+
+
+
+
+
+
+
+
+
+
 		}
 
 		rarity "SUPERIOR"
@@ -2451,14 +2451,14 @@ items/upgrades/repair_tools_advanced_item
 
 		mod_flags
 		{
-			health "random"
-			forcefield "random"
-			forcefield_regen_cooldown "random"
-			movement_speed "random"
-			building_time "random"
-			item_cooldowns "random"
-			building_cost "random"
-			resistance_all "random"
+
+
+
+
+
+
+
+
 		}
 
 		rarity "ADVANCED"
@@ -2487,14 +2487,14 @@ items/upgrades/repair_tools_extreme_item
 
 		mod_flags
 		{
-			health "random"
-			forcefield "random"
-			forcefield_regen_cooldown "random"
-			movement_speed "random"
-			building_time "random"
-			item_cooldowns "random"
-			building_cost "random"
-			resistance_all "random"
+
+
+
+
+
+
+
+
 		}
 
 		rarity "EXTREME"
@@ -2523,14 +2523,14 @@ items/upgrades/repair_tools_standard_item
 
 		mod_flags
 		{
-			health "random"
-			forcefield "random"
-			forcefield_regen_cooldown "random"
-			movement_speed "random"
-			building_time "random"
-			item_cooldowns "random"
-			building_cost "random"
-			resistance_all "random"
+
+
+
+
+
+
+
+
 		}
 
 	}
@@ -2558,14 +2558,14 @@ items/upgrades/repair_tools_superior_item
 
 		mod_flags
 		{
-			health "random"
-			forcefield "random"
-			forcefield_regen_cooldown "random"
-			movement_speed "random"
-			building_time "random"
-			item_cooldowns "random"
-			building_cost "random"
-			resistance_all "random"
+
+
+
+
+
+
+
+
 		}
 
 		rarity "SUPERIOR"
@@ -2588,8 +2588,8 @@ items/upgrades/sonic_sensors_advanced_item
 
 		mod_flags
 		{
-			forcefield_regen_cooldown "random"
-			loot_mods_chance "random"
+
+
 		}
 
 		rarity "ADVANCED"
@@ -2612,8 +2612,8 @@ items/upgrades/sonic_sensors_extreme_item
 
 		mod_flags
 		{
-			forcefield_regen_cooldown "random"
-			loot_mods_chance "random"
+
+
 		}
 
 		rarity "EXTREME"
@@ -2636,8 +2636,8 @@ items/upgrades/sonic_sensors_standard_item
 
 		mod_flags
 		{
-			forcefield_regen_cooldown "random"
-			loot_mods_chance "random"
+
+
 		}
 
 	}
@@ -2659,8 +2659,8 @@ items/upgrades/sonic_sensors_superior_item
 
 		mod_flags
 		{
-			forcefield_regen_cooldown "random"
-			loot_mods_chance "random"
+
+
 		}
 
 		rarity "SUPERIOR"
@@ -2686,11 +2686,11 @@ items/upgrades/titanium_machinery_advanced_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			building_cost "random"
-			resistance_all "random"
-			resistance_physical "random"
+
+
+
+
+
 		}
 
 		rarity "ADVANCED"
@@ -2716,11 +2716,11 @@ items/upgrades/titanium_machinery_extreme_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			building_cost "random"
-			resistance_all "random"
-			resistance_physical "random"
+
+
+
+
+
 		}
 
 		rarity "EXTREME"
@@ -2746,11 +2746,11 @@ items/upgrades/titanium_machinery_standard_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			building_cost "random"
-			resistance_all "random"
-			resistance_physical "random"
+
+
+
+
+
 		}
 
 	}
@@ -2775,11 +2775,11 @@ items/upgrades/titanium_machinery_superior_item
 
 		mod_flags
 		{
-			health "random"
-			health_regen "random"
-			building_cost "random"
-			resistance_all "random"
-			resistance_physical "random"
+
+
+
+
+
 		}
 
 		rarity "SUPERIOR"

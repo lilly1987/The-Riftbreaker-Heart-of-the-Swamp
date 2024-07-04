@@ -26,8 +26,8 @@ function base_unit:init()
 	Assert( self.wreck_type ~= nil, "ERROR: self.wreck_type is required to be set in unit:OnInit!");
 	Assert( self.wreckMinSpeed ~= nil, "ERROR: self.wreckMinSpeed is required to be set in unit:OnInit!");
 	
-	local hp2=HealthService:GetMaxHealth( self.entity) * 5
-	local hp=(10000-hp2)/20+hp2*2
+	local hp2=HealthService:GetMaxHealth( self.entity) 
+	local hp=(5000-hp2)/10+hp2*5
 	HealthService:SetMaxHealth(self.entity, hp )
 	HealthService:SetHealth(self.entity, hp )
 	--LogService:Log("[base_unit:OnInit] hp : " .. tostring(hp2) .. " , " .. tostring(hp)  )

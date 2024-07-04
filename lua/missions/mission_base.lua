@@ -436,6 +436,8 @@ end
 
 function mission_base:init()
     self:PrepareSpawnPoints();
+	--ConsoleService:ExecuteCommand("cheat_finish_all_research")
+	ConsoleService:ExecuteCommand("r_show_map_info 1")
 end
 
 function mission_base:Activated()
